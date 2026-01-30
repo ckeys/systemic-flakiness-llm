@@ -1,0 +1,159 @@
+============================================================
+RQ2 Experiment Summary
+============================================================
+
+Timestamp: 20260122_131934
+Total Clusters: 45
+Total Tests: 606
+
+Categorization Statistics:
+  Tier 1: 7.9%
+  Tier 2: 7.4%
+  Tier 3: 1.5%
+  Tier 4: 82.8%
+
+Evaluation Results:
+| Method | ARI | NMI | Purity | V-Measure | #Clusters |
+|--------|-----|-----|--------|-----------|-----------|
+| B1-Random | 0.001 | 0.263 | 0.269 | 0.263 | 45 |
+| B2-TestClass | 0.441 | 0.769 | 0.891 | 0.769 | 106 |
+| B3-ExceptionType | 0.042 | 0.230 | 0.266 | 0.230 | 25 |
+| B4-Embedding | 0.042 | 0.259 | 0.281 | 0.259 | 27 |
+| B5-PureLLM | 0.141 | 0.686 | 0.868 | 0.686 | 137 |
+| Hybrid-Signature | 0.548 | 0.728 | 0.738 | 0.728 | 32 |
+| Hybrid-Verified | 0.212 | 0.642 | 0.851 | 0.642 | 297 |
+
+
+## B1-Random
+
+### Core Metrics (Standard in SE Clustering Research)
+- Adjusted Rand Index (ARI): 0.0009
+- Normalized Mutual Information (NMI): 0.2625
+
+### Recommended Metrics
+- Purity: 0.2690
+- V-Measure: 0.2625
+
+### Cluster Statistics
+- Number of Predicted Clusters: 45
+- Number of Ground Truth Clusters: 45
+- Number of Tests Evaluated: 606
+
+
+## B2-TestClass
+
+### Core Metrics (Standard in SE Clustering Research)
+- Adjusted Rand Index (ARI): 0.4408
+- Normalized Mutual Information (NMI): 0.7689
+
+### Recommended Metrics
+- Purity: 0.8911
+- V-Measure: 0.7689
+
+### Cluster Statistics
+- Number of Predicted Clusters: 106
+- Number of Ground Truth Clusters: 45
+- Number of Tests Evaluated: 606
+
+
+## B3-ExceptionType
+
+### Core Metrics (Standard in SE Clustering Research)
+- Adjusted Rand Index (ARI): 0.0417
+- Normalized Mutual Information (NMI): 0.2298
+
+### Recommended Metrics
+- Purity: 0.2657
+- V-Measure: 0.2298
+
+### Cluster Statistics
+- Number of Predicted Clusters: 25
+- Number of Ground Truth Clusters: 45
+- Number of Tests Evaluated: 606
+
+
+## B4-Embedding
+
+### Core Metrics (Standard in SE Clustering Research)
+- Adjusted Rand Index (ARI): 0.0423
+- Normalized Mutual Information (NMI): 0.2587
+
+### Recommended Metrics
+- Purity: 0.2805
+- V-Measure: 0.2587
+
+### Cluster Statistics
+- Number of Predicted Clusters: 27
+- Number of Ground Truth Clusters: 45
+- Number of Tests Evaluated: 606
+
+
+## B5-PureLLM
+
+### Core Metrics (Standard in SE Clustering Research)
+- Adjusted Rand Index (ARI): 0.1409
+- Normalized Mutual Information (NMI): 0.6861
+
+### Recommended Metrics
+- Purity: 0.8680
+- V-Measure: 0.6861
+
+### Cluster Statistics
+- Number of Predicted Clusters: 137
+- Number of Ground Truth Clusters: 45
+- Number of Tests Evaluated: 606
+
+
+## Hybrid-Signature
+
+### Core Metrics (Standard in SE Clustering Research)
+- Adjusted Rand Index (ARI): 0.5480
+- Normalized Mutual Information (NMI): 0.7284
+
+### Recommended Metrics
+- Purity: 0.7376
+- V-Measure: 0.7284
+
+### Cluster Statistics
+- Number of Predicted Clusters: 32
+- Number of Ground Truth Clusters: 45
+- Number of Tests Evaluated: 606
+
+
+## Hybrid-Verified
+
+### Core Metrics (Standard in SE Clustering Research)
+- Adjusted Rand Index (ARI): 0.2121
+- Normalized Mutual Information (NMI): 0.6424
+
+### Recommended Metrics
+- Purity: 0.8515
+- V-Measure: 0.6424
+
+### Cluster Statistics
+- Number of Predicted Clusters: 297
+- Number of Ground Truth Clusters: 45
+- Number of Tests Evaluated: 606
+
+
+============================================================
+LLM COST SUMMARY
+============================================================
+Total API Calls: 65
+Total Input Tokens: 70,440
+Total Output Tokens: 7,759
+Total Tokens: 78,199
+Total Cost: $0.2537 USD
+
+By Model:
+  gpt-4o:
+    Calls: 65, Tokens: 78,199, Cost: $0.2537
+
+By Component:
+  tier3_classification:
+    Calls: 6, Tokens: 899, Cost: $0.0023
+  B5_pure_llm_clustering:
+    Calls: 31, Tokens: 23,973, Cost: $0.0780
+  cluster_verification:
+    Calls: 28, Tokens: 53,327, Cost: $0.1734
+============================================================

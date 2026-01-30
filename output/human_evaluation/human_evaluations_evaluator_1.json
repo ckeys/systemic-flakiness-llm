@@ -1,0 +1,450 @@
+{
+  "1": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T14:29:41.340592"
+  },
+  "2": {
+    "human_score": 1,
+    "human_correctness": "No",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:12:32.889292"
+  },
+  "3": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:13:56.954618"
+  },
+  "4": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:17.112355"
+  },
+  "5": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:18.754651"
+  },
+  "6": {
+    "human_score": 2,
+    "human_correctness": "No",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:19.969237"
+  },
+  "7": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:20.909513"
+  },
+  "8": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:27.965629"
+  },
+  "9": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:30.462086"
+  },
+  "10": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:32.195564"
+  },
+  "11": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:33.346746"
+  },
+  "12": {
+    "human_score": 3,
+    "human_correctness": "Partial",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:36.979857"
+  },
+  "13": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:38.034823"
+  },
+  "14": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:38.797321"
+  },
+  "15": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:39.476801"
+  },
+  "16": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:40.098648"
+  },
+  "17": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:40.748883"
+  },
+  "18": {
+    "human_score": 3,
+    "human_correctness": "Partial",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:41.434086"
+  },
+  "19": {
+    "human_score": 3,
+    "human_correctness": "Partial",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:42.048441"
+  },
+  "20": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:42.644991"
+  },
+  "21": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:43.254300"
+  },
+  "22": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:43.862394"
+  },
+  "23": {
+    "human_score": 2,
+    "human_correctness": "No",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:44.455886"
+  },
+  "24": {
+    "human_score": 2,
+    "human_correctness": "No",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:45.073232"
+  },
+  "25": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:46.887950"
+  },
+  "26": {
+    "human_score": 3,
+    "human_correctness": "Partial",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:48.465259"
+  },
+  "27": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:49.175692"
+  },
+  "28": {
+    "human_score": 2,
+    "human_correctness": "No",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:50.793232"
+  },
+  "29": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:53.035148"
+  },
+  "30": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:53.977296"
+  },
+  "31": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:54.789238"
+  },
+  "32": {
+    "human_score": 3,
+    "human_correctness": "Partial",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:55.448405"
+  },
+  "33": {
+    "human_score": 3,
+    "human_correctness": "Partial",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:56.118366"
+  },
+  "34": {
+    "human_score": 2,
+    "human_correctness": "No",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:56.732631"
+  },
+  "35": {
+    "human_score": 3,
+    "human_correctness": "Partial",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:57.414248"
+  },
+  "36": {
+    "human_score": 3,
+    "human_correctness": "Partial",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:58.071935"
+  },
+  "37": {
+    "human_score": 1,
+    "human_correctness": "No",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:58.748654"
+  },
+  "38": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:14:59.403804"
+  },
+  "39": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:00.057492"
+  },
+  "40": {
+    "human_score": 1,
+    "human_correctness": "No",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:00.728658"
+  },
+  "41": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:01.399470"
+  },
+  "42": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:02.065308"
+  },
+  "43": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:02.722831"
+  },
+  "44": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:03.382750"
+  },
+  "45": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:03.999578"
+  },
+  "46": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:04.721720"
+  },
+  "47": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:05.452740"
+  },
+  "48": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:15:31.821414"
+  },
+  "49": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:25:22.943979"
+  },
+  "50": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:28:15.239855"
+  },
+  "51": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:28:34.573067"
+  },
+  "52": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:28:55.788046"
+  },
+  "53": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:29:12.338178"
+  },
+  "54": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:29:29.745349"
+  },
+  "55": {
+    "human_score": 5,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:29:45.670265"
+  },
+  "56": {
+    "human_score": 4,
+    "human_correctness": "Yes",
+    "notes": "",
+    "evaluator": "evaluator_1",
+    "diagnosis_model": "gpt-4o",
+    "timestamp": "2026-01-21T16:30:05.367525"
+  }
+}

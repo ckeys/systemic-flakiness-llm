@@ -1,0 +1,45 @@
+======================================================================
+RQ1 EXPERIMENT: COLLECTIVE VS INDIVIDUAL ANALYSIS
+======================================================================
+
+EXPERIMENT INFO:
+----------------------------------------------------------------------
+  timestamp: 2026-01-23T15:51:58.169343
+  llm_provider: openai
+  model: gpt-4o-mini
+  num_clusters: 28
+  max_tests_per_cluster: 10
+  runs_per_cluster: 3
+
+MULTI-RUN EXPERIMENT SUMMARY
+----------------------------------------------------------------------
+  Clusters: 28
+  Runs per cluster: 3
+
+DIMENSION 1: CATEGORY ACCURACY
+----------------------------------------------------------------------
+Method          Accuracy (mean ± std)    
+Individual      0.214 ± 0.410
+Collective      0.643 ± 0.479
+
+DIMENSION 2: SEMANTIC ALIGNMENT (Automated)
+----------------------------------------------------------------------
+Method          Cosine Sim           BERTScore-F1        
+Individual      0.379 ± 0.147      0.000 ± 0.000
+Collective      0.433 ± 0.146      0.000 ± 0.000
+Improvement     +0.054               +0.000
+
+DIMENSION 3: DIAGNOSIS QUALITY (LLM-based 1-5 Scale)
+----------------------------------------------------------------------
+Method          Similarity           Correct Rate    Partial Rate   
+Individual      2.36 ± 0.81        10.7%           64.3%
+Collective      3.21 ± 0.94        35.7%           57.1%
+Improvement     +0.86
+
+WIN/LOSS ANALYSIS (Based on Mean Similarity per Cluster)
+----------------------------------------------------------------------
+  Collective Wins: 18
+  Individual Wins: 2
+  Ties: 8
+
+======================================================================

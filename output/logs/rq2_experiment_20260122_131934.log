@@ -1,0 +1,84 @@
+2026-01-22 13:19:34,673 - rq2_experiment - INFO - ============================================================
+2026-01-22 13:19:34,673 - rq2_experiment - INFO - RQ2 Experiment: Automated Identification of Systemic Flakiness Clusters
+2026-01-22 13:19:34,673 - rq2_experiment - INFO - ============================================================
+2026-01-22 13:19:34,673 - rq2_experiment - INFO - 
+[Step 1] Loading cluster data...
+2026-01-22 13:19:34,803 - rq2_experiment - INFO - Loaded 45 clusters
+2026-01-22 13:19:34,803 - rq2_experiment - INFO - Total tests: 606
+2026-01-22 13:19:34,803 - rq2_experiment - INFO - Ground truth clusters: 45
+2026-01-22 13:19:34,803 - rq2_experiment - INFO - Tests with stack traces: 102
+2026-01-22 13:19:34,803 - rq2_experiment - INFO - Tests with source code: 603
+2026-01-22 13:19:34,803 - rq2_experiment - INFO - 
+[Step 2] Extracting features (Three-Tier Exception Categorization)...
+2026-01-22 13:19:35,153 - rq2_experiment - INFO - LLM client created for Tier 3 categorization
+2026-01-22 13:19:44,012 - rq2_experiment - INFO - Categorization statistics:
+2026-01-22 13:19:44,013 - rq2_experiment - INFO -   Tier 1 (exact match): 48 (7.9%)
+2026-01-22 13:19:44,013 - rq2_experiment - INFO -   Tier 2 (keyword): 45 (7.4%)
+2026-01-22 13:19:44,013 - rq2_experiment - INFO -   Tier 3 (LLM): 9 (1.5%)
+2026-01-22 13:19:44,013 - rq2_experiment - INFO -   Category distribution: {'Networking': 241, 'Other': 6, 'Filesystem': 123, 'Assertion': 104, 'Configuration': 2, 'Unknown': 111, 'Timeout': 7, 'Concurrency': 5, 'Resource': 7}
+2026-01-22 13:19:44,013 - rq2_experiment - INFO - 
+[Step 3] Running clustering methods...
+2026-01-22 13:19:44,013 - rq2_experiment - INFO -   Running B1: Random Clustering...
+2026-01-22 13:19:44,013 - rq2_experiment - INFO -   Running B2: Test Class-based Clustering...
+2026-01-22 13:19:44,014 - rq2_experiment - INFO -   Running B3: Exception Type-only Clustering...
+2026-01-22 13:19:44,014 - rq2_experiment - INFO -   Running B4: Embedding-based Clustering...
+2026-01-22 13:19:53,544 - rq2_experiment - INFO -   Running B5: Pure LLM Clustering...
+2026-01-22 13:21:09,180 - rq2_experiment - INFO -   Running Our Method: Signature-based Pre-Clustering...
+2026-01-22 13:21:09,181 - rq2_experiment - INFO -   B1-Random: 45 clusters
+2026-01-22 13:21:09,181 - rq2_experiment - INFO -   B2-TestClass: 106 clusters
+2026-01-22 13:21:09,182 - rq2_experiment - INFO -   B3-ExceptionType: 25 clusters
+2026-01-22 13:21:09,182 - rq2_experiment - INFO -   B4-Embedding: 27 clusters
+2026-01-22 13:21:09,182 - rq2_experiment - INFO -   B5-PureLLM: 137 clusters
+2026-01-22 13:21:09,182 - rq2_experiment - INFO -   Hybrid-Signature: 32 clusters
+2026-01-22 13:21:09,182 - rq2_experiment - INFO - 
+[Step 4] Running LLM Verification (Phase 3)...
+2026-01-22 13:23:35,518 - rq2_experiment - INFO -   Verification statistics:
+2026-01-22 13:23:35,520 - rq2_experiment - INFO -     Total clusters: 32
+2026-01-22 13:23:35,520 - rq2_experiment - INFO -     Verified Yes: 2
+2026-01-22 13:23:35,520 - rq2_experiment - INFO -     Verified No: 9
+2026-01-22 13:23:35,520 - rq2_experiment - INFO -     Verified Partial: 17
+2026-01-22 13:23:35,520 - rq2_experiment - INFO -     Skipped (small): 4
+2026-01-22 13:23:35,520 - rq2_experiment - INFO -     Splits performed: 26
+2026-01-22 13:23:35,521 - rq2_experiment - INFO - 
+[Step 5] Evaluating clustering methods...
+2026-01-22 13:23:35,565 - rq2_experiment - INFO - 
+Evaluation Results:
+2026-01-22 13:23:35,565 - rq2_experiment - INFO - | Method | ARI | NMI | Purity | V-Measure | #Clusters |
+|--------|-----|-----|--------|-----------|-----------|
+| B1-Random | 0.001 | 0.263 | 0.269 | 0.263 | 45 |
+| B2-TestClass | 0.441 | 0.769 | 0.891 | 0.769 | 106 |
+| B3-ExceptionType | 0.042 | 0.230 | 0.266 | 0.230 | 25 |
+| B4-Embedding | 0.042 | 0.259 | 0.281 | 0.259 | 27 |
+| B5-PureLLM | 0.141 | 0.686 | 0.868 | 0.686 | 137 |
+| Hybrid-Signature | 0.548 | 0.728 | 0.738 | 0.728 | 32 |
+| Hybrid-Verified | 0.212 | 0.642 | 0.851 | 0.642 | 297 |
+2026-01-22 13:23:35,566 - rq2_experiment - INFO - 
+[Step 6] Saving results...
+2026-01-22 13:23:35,566 - rq2_experiment - INFO - 
+============================================================
+LLM COST SUMMARY
+============================================================
+Total API Calls: 65
+Total Input Tokens: 70,440
+Total Output Tokens: 7,759
+Total Tokens: 78,199
+Total Cost: $0.2537 USD
+
+By Model:
+  gpt-4o:
+    Calls: 65, Tokens: 78,199, Cost: $0.2537
+
+By Component:
+  tier3_classification:
+    Calls: 6, Tokens: 899, Cost: $0.0023
+  B5_pure_llm_clustering:
+    Calls: 31, Tokens: 23,973, Cost: $0.0780
+  cluster_verification:
+    Calls: 28, Tokens: 53,327, Cost: $0.1734
+============================================================
+2026-01-22 13:23:35,573 - rq2_experiment - INFO - Results saved to: ./output/results/rq2_results_20260122_131934.json
+2026-01-22 13:23:35,574 - rq2_experiment - INFO - Summary saved to: ./output/results/rq2_summary_20260122_131934.txt
+2026-01-22 13:23:35,574 - rq2_experiment - INFO - 
+============================================================
+2026-01-22 13:23:35,574 - rq2_experiment - INFO - Experiment completed!
+2026-01-22 13:23:35,574 - rq2_experiment - INFO - ============================================================

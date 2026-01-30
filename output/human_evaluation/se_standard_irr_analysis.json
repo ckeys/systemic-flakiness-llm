@@ -1,0 +1,14 @@
+{
+  "inter_rater_reliability": {
+    "fleiss_kappa": 0.3599390418135061,
+    "avg_weighted_kappa": 0.6085683228461323,
+    "avg_exact_agreement": 0.5238095238095238,
+    "avg_adjacent_agreement": 0.8928571428571429
+  },
+  "human_llm_agreement": {
+    "avg_weighted_kappa": 0.4686340206947602,
+    "avg_spearman": 0.8169139819233168,
+    "avg_exact_agreement": 0.3511904761904761,
+    "avg_adjacent_agreement": 0.8452380952380952
+  }
+}

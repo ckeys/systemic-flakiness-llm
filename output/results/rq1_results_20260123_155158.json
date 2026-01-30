@@ -1,0 +1,1992 @@
+{
+  "experiment_info": {
+    "timestamp": "2026-01-23T15:51:58.169343",
+    "llm_provider": "openai",
+    "model": "gpt-4o-mini",
+    "num_clusters": 28,
+    "max_tests_per_cluster": 10,
+    "runs_per_cluster": 3
+  },
+  "dataset_statistics": {
+    "total_clusters": 28,
+    "total_tests": 513,
+    "projects": 10,
+    "min_cluster_size": 2,
+    "max_cluster_size": 115,
+    "avg_cluster_size": 18.321428571428573,
+    "tests_with_source": 510,
+    "tests_with_traces": 79,
+    "source_coverage": 0.9941520467836257,
+    "trace_coverage": 0.1539961013645224
+  },
+  "aggregate_metrics": {
+    "individual_similarity_score_mean": 2.357142857142857,
+    "individual_similarity_score_std": 0.8112726208286104,
+    "individual_cosine_similarity_mean": 0.3786070650177343,
+    "individual_cosine_similarity_std": 0.14726498441067185,
+    "individual_bert_score_f1_mean": 0.0,
+    "individual_bert_score_f1_std": 0.0,
+    "individual_category_match_mean": 0.21428571428571427,
+    "individual_category_match_std": 0.41032590332414487,
+    "individual_correct_mean": 0.10714285714285714,
+    "individual_correct_std": 0.30929478706587094,
+    "individual_partial_mean": 0.6428571428571429,
+    "individual_partial_std": 0.47915742374995496,
+    "collective_similarity_score_mean": 3.2142857142857144,
+    "collective_similarity_score_std": 0.9394961741404217,
+    "collective_cosine_similarity_mean": 0.4328205649341856,
+    "collective_cosine_similarity_std": 0.14622902941294952,
+    "collective_bert_score_f1_mean": 0.0,
+    "collective_bert_score_f1_std": 0.0,
+    "collective_category_match_mean": 0.6428571428571429,
+    "collective_category_match_std": 0.479157423749955,
+    "collective_correct_mean": 0.35714285714285715,
+    "collective_correct_std": 0.47915742374995496,
+    "collective_partial_mean": 0.5714285714285714,
+    "collective_partial_std": 0.49487165930539356,
+    "similarity_improvement": 0.8571428571428572,
+    "cosine_improvement": 0.0542134999164513,
+    "bert_score_improvement": 0.0,
+    "collective_wins": 18,
+    "individual_wins": 2,
+    "ties": 8,
+    "num_clusters": 28,
+    "runs_per_cluster": 3
+  },
+  "per_cluster_results": [
+    {
+      "cluster": "Alluxio-alluxio/cluster1",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.20174221694469452,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 3.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.4863196909427643,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "apache-ambari/cluster1",
+      "individual_similarity_mean": 3.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.3728003203868866,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.4678892493247986,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "apache-ambari/cluster2",
+      "individual_similarity_mean": 1.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.13343481719493866,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.2746666967868805,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "apache-hbase/cluster1",
+      "individual_similarity_mean": 3.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.5363898277282715,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 1.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 2.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.41798314452171326,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "apache-hbase/cluster7",
+      "individual_similarity_mean": 3.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.31518614292144775,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 2.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.4110400378704071,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "apache-hbase/cluster10",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.47590136528015137,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 3.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.5599787831306458,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "apache-hbase/cluster13",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.36667609214782715,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 2.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.3733886182308197,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "apache-hbase/cluster14",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.6031739711761475,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.710034966468811,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "apache-hbase/cluster19",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.22373178601264954,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.2326553761959076,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "elasticjob-elastic-job-lite/cluster1",
+      "individual_similarity_mean": 3.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.705897331237793,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 1.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.6821468472480774,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "hector-client-hector/cluster1",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.5334191918373108,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 2.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.5706820487976074,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "kevinsawicki-http-request/cluster1",
+      "individual_similarity_mean": 1.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.30045393109321594,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 1.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.3130274713039398,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "kevinsawicki-http-request/cluster2",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.10896869003772736,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 3.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.20765095949172974,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "spring-projects-spring-boot/cluster1",
+      "individual_similarity_mean": 3.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.4662163257598877,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.47486045956611633,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "spring-projects-spring-boot/cluster10",
+      "individual_similarity_mean": 4.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.7137205600738525,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 1.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.7781904935836792,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "spring-projects-spring-boot/cluster11",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.4897647500038147,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.5948622822761536,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "spring-projects-spring-boot/cluster12",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.41462242603302,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.5621715188026428,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "spring-projects-spring-boot/cluster15",
+      "individual_similarity_mean": 1.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.2823108434677124,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 2.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.3490428924560547,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "spring-projects-spring-boot/cluster16",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.32831844687461853,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 2.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.3280660808086395,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 0.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "square-okhttp/cluster1",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.26183778047561646,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.26315364241600037,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "square-okhttp/cluster6",
+      "individual_similarity_mean": 4.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.37890151143074036,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 1.0,
+      "individual_correct_rate": 1.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.3399098813533783,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "square-okhttp/cluster20",
+      "individual_similarity_mean": 4.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.25131458044052124,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 1.0,
+      "individual_correct_rate": 1.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.3293502628803253,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "wildfly-wildfly/cluster1",
+      "individual_similarity_mean": 3.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.28505852818489075,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.2677033245563507,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "wildfly-wildfly/cluster3",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.384344220161438,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.461831659078598,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "wro4j-wro4j/cluster1",
+      "individual_similarity_mean": 3.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.31737127900123596,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 1.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 4.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.2952050268650055,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 1.0,
+      "collective_partial_rate": 0.0
+    },
+    {
+      "cluster": "wro4j-wro4j/cluster2",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.35988882184028625,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 1.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 3.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.5087474584579468,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "wro4j-wro4j/cluster3",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.44110316038131714,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 1.0,
+      "collective_similarity_mean": 3.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.46856313943862915,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 1.0
+    },
+    {
+      "cluster": "wro4j-wro4j/cluster4",
+      "individual_similarity_mean": 2.0,
+      "individual_similarity_std": 0.0,
+      "individual_cosine_mean": 0.34844890236854553,
+      "individual_cosine_std": 0.0,
+      "individual_bert_f1_mean": 0.0,
+      "individual_bert_f1_std": 0.0,
+      "individual_category_accuracy": 0.0,
+      "individual_correct_rate": 0.0,
+      "individual_partial_rate": 0.0,
+      "collective_similarity_mean": 2.0,
+      "collective_similarity_std": 0.0,
+      "collective_cosine_mean": 0.3898538053035736,
+      "collective_cosine_std": 0.0,
+      "collective_bert_f1_mean": 0.0,
+      "collective_bert_f1_std": 0.0,
+      "collective_category_accuracy": 1.0,
+      "collective_correct_rate": 0.0,
+      "collective_partial_rate": 0.0
+    }
+  ],
+  "all_diagnoses": [
+    {
+      "run": 1,
+      "project": "Alluxio-alluxio",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky tests is a combination of concurrency issues and timing problems related to the `mMasterInfo` operations and filesystem interactions. The tests frequently access and modify shared resources without proper synchronization, leading to race conditions and inconsistent states in the filesystem, which are exacerbated by transient resource availability and potential delays in processing. This shared vulnerability to timing and concurrency issues explains why all these tests fail together in the same test runs.",
+      "ground_truth": "DNS issue, missing file issue, lack of a connection to a (worker) host involving\nLocalTachyonCluster locally on the machine."
+    },
+    {
+      "run": 1,
+      "project": "Alluxio-alluxio",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to resource contention and timing issues within the Tachyon cluster environment, particularly concerning the availability of local workers and network resolution. The `IOException` indicating \"The machine does not have any local worker\" suggests that the cluster may not be able to allocate resources properly when multiple clients are trying to create files simultaneously, leading to failures in file operations. Additionally, the `UnknownHostException` points to potential networking issues, such as DNS resolution failures, which can further exacerbate the instability of the cluster during concurrent test execution.",
+      "ground_truth": "DNS issue, missing file issue, lack of a connection to a (worker) host involving\nLocalTachyonCluster locally on the machine."
+    },
+    {
+      "run": 1,
+      "project": "apache-ambari",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is the reliance on the availability and state of the external LDAP server and the database, which are both susceptible to timing and concurrency issues. The unavailability of the LDAP server can lead to `ServiceUnavailableException` in `testBadCredential`, while concurrent modifications to the shared `userDAO` object can cause race conditions in `testAuthenticate`, resulting in inconsistent test outcomes. This indicates that both tests are affected by external dependencies and shared state, leading to intermittent failures when those dependencies are not in a stable state.",
+      "ground_truth": "Socket closed, connection refused to LDAP server. This could be due to the LDAP\nserver not being available."
+    },
+    {
+      "run": 1,
+      "project": "apache-ambari",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in both tests is related to the unavailability of the LDAP server at `localhost:33389`, which leads to `ServiceUnavailableException` when attempting to authenticate users. This indicates that the LDAP service may not be running, is misconfigured, or is experiencing intermittent connectivity issues, causing both tests to fail when they attempt to interact with the LDAP server for authentication. The tests rely on the availability of this external dependency, and any instability in the LDAP service directly impacts their success.",
+      "ground_truth": "Socket closed, connection refused to LDAP server. This could be due to the LDAP\nserver not being available."
+    },
+    {
+      "run": 1,
+      "project": "apache-ambari",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flakiness of all these tests is a combination of concurrency issues and timing problems related to the shared state of clusters, services, and service components in a multi-threaded test environment. The lack of proper synchronization mechanisms allows multiple tests to modify the same resources simultaneously, leading to race conditions and inconsistent states that result in intermittent failures across all tests. Additionally, asynchronous operations and delays in state propagation exacerbate the timing issues, causing the tests to fail when expected conditions are not met in time.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 1,
+      "project": "apache-ambari",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is a **networking issue**, specifically related to DNS resolution failures, as indicated by the `java.net.UnknownHostException` stack traces. The tests intermittently fail due to the inability to resolve hostnames (e.g., `ip-172-31-63-221` and `ip-172-31-53-177`), which suggests that the tests rely on the local network configuration or DNS settings that are unstable or misconfigured, leading to temporary failures in name resolution during test execution.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is primarily related to networking instability and DNS resolution issues, compounded by concurrency problems in resource management. The intermittent `UnknownHostException` failures indicate that the test environment experiences transient network failures, while the locking issues with the MiniDFSCluster suggest that multiple tests are not properly isolated, leading to contention for shared filesystem resources. Together, these factors create an unreliable testing environment that results in consistent failures across multiple tests.",
+      "ground_truth": "Definitely some kind of networking issue, possibly some kind of filesystem\npollution (locked directories)."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **networking issue**, specifically related to **DNS resolution failures**. The `java.net.UnknownHostException` indicates that the tests are unable to resolve the hostnames of the nodes in the HBase cluster, leading to failures in establishing connections required for the tests to execute properly. This intermittent DNS resolution problem can cause multiple tests that rely on networked components to fail simultaneously.",
+      "ground_truth": "Definitely some kind of networking issue, possibly some kind of filesystem\npollution (locked directories)."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 7,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flakiness in both tests is the improper handling of resource cleanup and synchronization in the asynchronous operations of HBase. Both tests fail due to timing issues where the system does not guarantee that previous table operations (creation, deletion, enabling, or disabling) have fully completed before subsequent operations are attempted, leading to resource contention and intermittent failures. This indicates a need for better synchronization mechanisms or explicit waits to ensure that HBase operations are fully processed before proceeding with subsequent test actions.",
+      "ground_truth": "In some cases, the method disableTable fails due to some kind of timeout. In\nother failures, the method createTable fails for various reasons (\"directory\nalready exists\"). Could be a resource leak where disableTable does not clean up\nafter itself, among other things. The reasons why disableTable fails is unclear."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 7,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a race condition related to the HBase table creation process, specifically the handling of HLog directories. When `testHundredsOfTable` creates multiple tables in quick succession, it can lead to attempts to create tables with the same HLog directory, resulting in the `java.io.IOException: Target HLog directory already exists` error. This issue is exacerbated by the concurrent execution of tests, which can interfere with the cleanup and state management of HBase, causing both tests to fail intermittently due to resource contention and timing issues.",
+      "ground_truth": "In some cases, the method disableTable fails due to some kind of timeout. In\nother failures, the method createTable fails for various reasons (\"directory\nalready exists\"). Could be a resource leak where disableTable does not clean up\nafter itself, among other things. The reasons why disableTable fails is unclear."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 10,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely due to timing and concurrency issues related to the HBase cluster's state and data availability. Specifically, the tests fail together because they rely on consistent access to region metadata and table data, which can be disrupted by race conditions or delays in data initialization and modification. This indicates that the tests are sensitive to the HBase environment's readiness and concurrent operations, leading to intermittent failures when the cluster is under load or not fully synchronized.",
+      "ground_truth": "All the flaky tests fail because Writables.getWritable throws an NPE. This\nmethod takes a single argument \"bytes\", which is presumably null when it fails.\nFollowing the stack trace, we can see that this method is called indirectly\nfrom MetaScanner.metaScan via HTable$1.processRow. It looks like the metaScan\nmethod calls processRow with a value that comes from the method\nHConnectionManager.getRegionServerWithRetries. Therefore, I'm assuming that the\nNPE is actually the result of some kind of networking type error."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 10,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a race condition or timing issue related to the HBase region metadata not being fully initialized or available when the tests attempt to access it. Specifically, the `NullPointerException` in the stack trace indicates that the `MetaScanner` is unable to retrieve region information, which can occur if the HBase cluster is not in a stable state or if the metadata is not yet populated, leading to intermittent failures across all tests that rely on scanning the same metadata. This suggests a concurrency or timing issue with the HBase setup during test execution.",
+      "ground_truth": "All the flaky tests fail because Writables.getWritable throws an NPE. This\nmethod takes a single argument \"bytes\", which is presumably null when it fails.\nFollowing the stack trace, we can see that this method is called indirectly\nfrom MetaScanner.metaScan via HTable$1.processRow. It looks like the metaScan\nmethod calls processRow with a value that comes from the method\nHConnectionManager.getRegionServerWithRetries. Therefore, I'm assuming that the\nNPE is actually the result of some kind of networking type error."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 13,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all three tests is a race condition stemming from timing and concurrency issues in the HBase cluster's region server management. Specifically, the tests are sensitive to the asynchronous nature of server state transitions and region assignments, leading to intermittent failures when operations such as server shutdown, startup, and region reassignment do not complete in the expected order or timeframe. This results in scenarios where regions are not properly released or reassigned, causing exceptions like `NotServingRegionException` and `BindException` to occur.",
+      "ground_truth": "Timeouts and hitting retry limits, the root cause of which appears to be some\nkind of networking type error."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 13,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is related to the timing and state management of the HBase region servers during transitions, particularly when a region server is abruptly killed or restarted. This leads to a race condition where regions become temporarily unavailable, resulting in `NotServingRegionException` errors as the tests attempt to access regions that are in transition or not yet fully online. The tests' reliance on the timely processing of region state changes exacerbates the flakiness, as they all depend on the same underlying cluster state and region availability.",
+      "ground_truth": "Timeouts and hitting retry limits, the root cause of which appears to be some\nkind of networking type error."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 14,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is improper resource management and cleanup in the HBase testing environment, particularly concerning the HLog directory in HDFS. This leads to race conditions and timing issues, where tests attempt to create or access resources that are not fully cleared from previous runs, resulting in intermittent failures due to conflicts and inconsistent states in the filesystem and data propagation across the distributed system.",
+      "ground_truth": "All the flaky tests call HBaseAdmin.createTable, which tries to create a new\nlogging directory but fails because it already exists."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 14,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is the failure to create HBase tables due to the existence of target HLog directories that already exist, as indicated by the `java.io.IOException: Target HLog directory already exists` error in the stack traces. This issue is likely caused by improper cleanup of HBase resources between test runs, leading to conflicts when attempting to create new tables with the same names or configurations. The tests are sensitive to the state of the HBase environment, which is not being reset correctly, resulting in consistent failures across multiple tests.",
+      "ground_truth": "All the flaky tests call HBaseAdmin.createTable, which tries to create a new\nlogging directory but fails because it already exists."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 19,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky tests is a combination of resource contention and timing issues within the Hadoop ecosystem, particularly related to the HDFS and HBase components. Intermittent failures arise from overlapping test executions that do not properly isolate their resources, leading to race conditions, unavailability of services (like NameNode or DataNodes), and inconsistent states due to asynchronous operations. This shared environment instability, compounded by potential network connectivity issues, results in all tests failing together during concurrent runs.",
+      "ground_truth": "Networking issues (name resolution), locked directory again."
+    },
+    {
+      "run": 1,
+      "project": "apache-hbase",
+      "cluster_id": 19,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is related to issues with the Hadoop Distributed File System (HDFS) and its configuration, specifically around network connectivity and resource availability. The stack traces indicate failures due to `UnknownHostException` and `Connection refused`, suggesting that the tests intermittently fail when the HDFS services (like NameNode or DataNode) are not reachable or properly initialized, likely due to timing issues or resource contention in the test environment. This leads to failures in file replication and data access, causing all tests that depend on HDFS to fail together.",
+      "ground_truth": "Networking issues (name resolution), locked directory again."
+    },
+    {
+      "run": 1,
+      "project": "elasticjob-elastic-job-lite",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in both `assertFindJobExecutionEventsWithTime` and `assertFindJobStatusTraceEventsWithTime` is likely due to timing issues stemming from the asynchronous processing of job events and the eventual consistency of the database. Both tests assume immediate availability of job-related data after creation, but delays in event logging or database updates can lead to intermittent failures in assertions, indicating a concurrency issue where the tests do not adequately account for the time required for data to be fully persisted and queryable.",
+      "ground_truth": "This is a very small cluster concerning two flaky tests that only fail on a\nsingle run and look very similar. They both fail because they assert that the\nreturn value of result.getTotal, where result is the return value of\nrepository.findJobStatusTraceEvents, is 0 whereas it is actually 357. The only\nthing that sets these test cases apart from the other test cases in the test\nclass is their use of time. Therefore, I am assuming that this is time related\nflakiness."
+    },
+    {
+      "run": 1,
+      "project": "elasticjob-elastic-job-lite",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to a timing issue with the underlying database state, specifically the asynchronous nature of job event logging and retrieval. Both tests rely on the presence of job execution and status trace events within a specific time window, and if the events are not fully committed or indexed in the database by the time the assertions are made, it can lead to inconsistent results, such as unexpected totals or row counts. This suggests a potential race condition or delay in event processing that affects both tests simultaneously.",
+      "ground_truth": "This is a very small cluster concerning two flaky tests that only fail on a\nsingle run and look very similar. They both fail because they assert that the\nreturn value of result.getTotal, where result is the return value of\nrepository.findJobStatusTraceEvents, is 0 whereas it is actually 357. The only\nthing that sets these test cases apart from the other test cases in the test\nclass is their use of time. Therefore, I am assuming that this is time related\nflakiness."
+    },
+    {
+      "run": 1,
+      "project": "hector-client-hector",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all ten tests is likely due to the eventual consistency model of the Cassandra database combined with concurrency issues. The tests perform rapid insert, delete, and retrieval operations without adequate synchronization or waiting mechanisms, leading to race conditions and inconsistent states where data may not be fully propagated or available for reads at the time of assertions. This results in intermittent failures as the tests attempt to access data that is not yet committed or has not been fully deleted, particularly under load or in a distributed environment.",
+      "ground_truth": "Internal error in Cassandra."
+    },
+    {
+      "run": 1,
+      "project": "hector-client-hector",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a concurrency issue related to the Cassandra database's internal state management and eventual consistency model. When multiple tests perform simultaneous insertions, deletions, and updates without proper isolation, they can lead to transient states where data is not yet fully committed or visible, resulting in `HCassandraInternalException` and `HNotFoundException` errors. This inconsistency is exacerbated by the lack of synchronization or delays between operations, causing tests to intermittently fail when they rely on the immediate availability of data that may not yet be fully processed by Cassandra.",
+      "ground_truth": "Internal error in Cassandra."
+    },
+    {
+      "run": 1,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in all three tests is likely related to inconsistent handling of URL encoding and decoding across different environments or configurations, compounded by timing issues in the asynchronous processing of HTTP requests. The tests depend on the correct encoding of special characters (like Unicode and percent signs) and the timely updating of the `path` variable, which may not be reliably synchronized with the request handling, leading to intermittent assertion failures when the expected values do not match. This combination of encoding inconsistencies and lack of synchronization creates a fragile testing environment where all tests fail together.",
+      "ground_truth": "Connection could not be made over the internet and the URL got reset to the\nempty string."
+    },
+    {
+      "run": 1,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely related to the handling of URL encoding and decoding in the `RequestHandler`. Specifically, the tests fail when the encoded URL does not match the expected decoded path due to improper encoding of special characters (like Unicode, percent signs, and spaces). This inconsistency can arise from differences in how the server or the underlying HTTP library processes these characters, leading to intermittent failures when the encoding does not align with the expected behavior, especially under varying conditions such as server configuration or request handling timing.",
+      "ground_truth": "Connection could not be made over the internet and the URL got reset to the\nempty string."
+    },
+    {
+      "run": 1,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flakiness of all these tests is a combination of timing and concurrency issues related to the handling of HTTP requests and responses in a potentially overloaded or improperly synchronized test environment. The tests depend on the timely processing of requests by the `RequestHandler` and the availability of the local server, which may not be consistently ready to handle multiple concurrent requests, leading to race conditions and inconsistent state across the tests. This suggests that the test suite may be sensitive to resource contention and timing delays, particularly when run in parallel or under load.",
+      "ground_truth": "Network issues when connecting to server."
+    },
+    {
+      "run": 1,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely related to the configuration and availability of the local HTTP server (localhost) used for handling requests. If the server is not properly initialized, is overloaded, or experiences intermittent connectivity issues, it can lead to failures in establishing connections, resulting in `null` values or exceptions like `IOException` and `ClassCastException`. This inconsistency in server response or availability directly impacts all tests that rely on it, causing them to fail together.",
+      "ground_truth": "Network issues when connecting to server."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely related to timing and concurrency issues within the Spring application context initialization process, compounded by inconsistent network configurations and resource availability. The tests are sensitive to the order and timing of bean initialization, particularly for components like `SpringLiquibase`, which may not be fully ready when assertions are made, leading to intermittent failures across multiple tests that rely on similar contexts and external dependencies. Additionally, network-related issues, such as hostname resolution and local address retrieval, further exacerbate the flakiness by introducing variability in the test environment.",
+      "ground_truth": "Root issue to do with DNS, causing issues creating beans, which cascades into\na failure of the whole framework."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a failure to resolve the local host name to an IP address, which leads to `java.net.UnknownHostException` or `com.gemstone.gemfire.InternalGemFireError`. This issue is likely related to networking or DNS resolution problems in the test environment, causing the application context to fail to initialize properly across multiple tests that depend on networked components or services, such as GemFire and Liquibase.",
+      "ground_truth": "Root issue to do with DNS, causing issues creating beans, which cascades into\na failure of the whole framework."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 10,
+      "method": "individual",
+      "diagnosis": "The shared root cause for the flaky failures of both tests is likely a combination of configuration issues and external dependency mismatches, specifically related to the Spring Framework versions being used. The `NoSuchMethodError` in the first test indicates a version conflict that can lead to inconsistent class loading, while the concurrency and timing issues in the second test may be exacerbated by the same underlying dependency misconfiguration, resulting in both tests failing together due to their reliance on the same faulty classpath and resource states.",
+      "ground_truth": "These two test cases execute a similar command and assert that the error output\nis empty, among other things. In most runs, this is the case, but sometimes the\nerror output contains a stack trace whose root cause is a NoSuchMethodError\ncaused by a missing isAllowEagerClassLoading method. Googling, I found this may\nbe caused by using the wrong version of Spring Framework. Looking at the\nFlakeFlagger scripts, I believe that the project was cloned from github and\nreinstalled for every test run. My best guess is there's some kind of\nnon-determinism involving the version of Spring Framework that ends up being\ninstalled."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 10,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a `NoSuchMethodError` indicating a mismatch in the Spring framework version being used, specifically related to the `DefaultListableBeanFactory.isAllowEagerClassLoading()` method. This suggests that the tests are likely running in an environment where conflicting versions of Spring dependencies are present, leading to inconsistent behavior during the application context initialization. The intermittent failures arise from the tests relying on a specific method that may not exist in the loaded version, causing the tests to fail together when that version is invoked.",
+      "ground_truth": "These two test cases execute a similar command and assert that the error output\nis empty, among other things. In most runs, this is the case, but sometimes the\nerror output contains a stack trace whose root cause is a NoSuchMethodError\ncaused by a missing isAllowEagerClassLoading method. Googling, I found this may\nbe caused by using the wrong version of Spring Framework. Looking at the\nFlakeFlagger scripts, I believe that the project was cloned from github and\nreinstalled for every test run. My best guess is there's some kind of\nnon-determinism involving the version of Spring Framework that ends up being\ninstalled."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 11,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is a combination of timing and resource contention issues within the test environment. The tests are sensitive to execution timing and rely on the availability of resources (such as script outputs and class files) that may not be consistently accessible due to parallel execution or misconfiguration, leading to intermittent failures when the environment is under load or not properly set up. This suggests that the tests are competing for limited resources or experiencing race conditions, which collectively impacts their reliability.",
+      "ground_truth": "Similar to cluster10, these test cases execute a command and make an assertion\nabout its output. Also similar to cluster10, the stack traces in traces2 seem to\nbe based around the missing method isAllowEagerClassLoading. In traces1, they\nrefer to a missing \"class path resource\" for the class AopAutoConfiguration.\nPerhaps interestingly, AopAutoConfiguration is part of the project code. Due to\nthe similarities with cluster10, I assume that root cause is the same, some kind\nof non-determinism involving the version of Spring Framework."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 11,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a missing or misconfigured classpath resource, specifically the absence of the `AopAutoConfiguration.class` file, which leads to `FileNotFoundException` during application startup. This indicates that the tests are likely dependent on a specific Spring Boot configuration or dependency that is not being correctly resolved or included in the classpath, causing all tests to fail when they attempt to start the Spring application context. The intermittent nature of the failures suggests that the classpath may not be consistently set up across different test runs, possibly due to environmental issues or dependency resolution problems.",
+      "ground_truth": "Similar to cluster10, these test cases execute a command and make an assertion\nabout its output. Also similar to cluster10, the stack traces in traces2 seem to\nbe based around the missing method isAllowEagerClassLoading. In traces1, they\nrefer to a missing \"class path resource\" for the class AopAutoConfiguration.\nPerhaps interestingly, AopAutoConfiguration is part of the project code. Due to\nthe similarities with cluster10, I assume that root cause is the same, some kind\nof non-determinism involving the version of Spring Framework."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 12,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is related to timing and resource contention in the test environment. Many tests depend on the successful execution of Groovy scripts or external services that may not be fully initialized or responsive when assertions are made, leading to intermittent failures. Additionally, the inconsistency in the configuration and availability of dependencies, such as messaging systems and network services, exacerbates these timing issues, causing all tests to fail together under certain conditions.",
+      "ground_truth": "Similar to cluster10 and cluster11, these test cases execute a command and make\nan assertion about its output. traces2 concerns isAllowEagerClassLoading and\ntraces3 concerns AopAutoConfiguration. What's new about this cluster is the\nexceptions in traces1, which are all ConnectException. Initially, I assumed this\nwas network related, but upon inspecting the source code of CliTester, it looks\nlike it's trying to connect to localhost."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 12,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a failure in establishing network connections, as indicated by the `java.net.ConnectException: Connection refused` error in the stack traces. This suggests that the tests are attempting to connect to a service (possibly a web server or messaging broker) that is not available or not started properly during the test execution, leading to intermittent failures across all tests that rely on this connectivity. The absence of necessary configuration files and the inability to load required classes further exacerbate the issue, indicating potential misconfiguration or missing dependencies in the test environment.",
+      "ground_truth": "Similar to cluster10 and cluster11, these test cases execute a command and make\nan assertion about its output. traces2 concerns isAllowEagerClassLoading and\ntraces3 concerns AopAutoConfiguration. What's new about this cluster is the\nexceptions in traces1, which are all ConnectException. Initially, I assumed this\nwas network related, but upon inspecting the source code of CliTester, it looks\nlike it's trying to connect to localhost."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 15,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to inconsistent configuration and resource contention in the test environment, which affects both timing and dependency resolution. The combination of asynchronous command execution and potential conflicts in library versions leads to intermittent failures, as the tests rely on timely and correctly formatted outputs that may not be available due to environmental factors such as CPU load, memory constraints, or misaligned dependencies. This results in a fragile test setup that fails under varying conditions, causing all tests to fail together.",
+      "ground_truth": "What's new here is the failure of debugAddsAutoconfigReport in traces3 (null\nassertion), though there's not much to go on in the error message."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 15,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **dependency mismatch** or **incompatibility** within the Spring Boot framework, specifically related to the `NoSuchMethodError` for `DefaultListableBeanFactory.isAllowEagerClassLoading()`. This indicates that the tests are likely running against an incorrect or outdated version of the Spring framework that does not support the expected method, leading to application startup failures and subsequent assertion errors across all tests. The failure to find necessary configuration files and the inability to start the application context further exacerbate the issue, causing all tests to fail together.",
+      "ground_truth": "What's new here is the failure of debugAddsAutoconfigReport in traces3 (null\nassertion), though there's not much to go on in the error message."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 16,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely due to inconsistent and misconfigured dependency resolution settings in the build environment, particularly related to the use of outdated or incorrect repository URLs (HTTP instead of HTTPS) and intermittent network issues affecting access to external repositories. This leads to failures in fetching required artifacts, resulting in sporadic test failures across multiple tests that rely on the same external dependencies.",
+      "ground_truth": "What's new in this cluster is Gradle issues, could possibly have something to\ndo with DNS? (like cluster1)."
+    },
+    {
+      "run": 1,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 16,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a failure in dependency resolution due to the use of HTTP URLs for Maven repositories, which are no longer supported as they require HTTPS. This results in multiple tests failing to retrieve necessary artifacts, leading to `DependencyResolutionException` errors across various tests that rely on the same dependency management setup. The intermittent nature of the failures may also be exacerbated by network issues or repository availability, but the primary issue is the outdated repository configuration.",
+      "ground_truth": "What's new in this cluster is Gradle issues, could possibly have something to\ndo with DNS? (like cluster1)."
+    },
+    {
+      "run": 1,
+      "project": "square-okhttp",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to timing and concurrency issues within the mock server's response handling. The tests depend on the sequential processing of requests and responses, but the asynchronous nature of the server can lead to race conditions, where responses are not processed in the expected order or timing, resulting in intermittent failures across all tests. Additionally, the reliance on DNS resolution and network conditions further exacerbates the flakiness, as these factors can introduce variability in the server's availability and responsiveness during test execution.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 1,
+      "project": "square-okhttp",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a `java.net.UnknownHostException` due to a temporary failure in name resolution for the hostname `ip-172-31-63-122`. This indicates a networking issue, likely related to DNS resolution or the local network configuration, which affects the ability of the tests to connect to the mock server consistently. Since all tests rely on the mock server's URL for their operations, any intermittent DNS resolution failure will lead to simultaneous failures across all tests.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 1,
+      "project": "square-okhttp",
+      "cluster_id": 6,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to intermittent network instability or misconfiguration in the test environment, which affects DNS resolution and network connectivity. This instability can lead to timing issues with connection closures and transient failures in resolving hostnames, causing all three tests to fail together due to their reliance on consistent network conditions and external dependencies.",
+      "ground_truth": "DNS and socket issues."
+    },
+    {
+      "run": 1,
+      "project": "square-okhttp",
+      "cluster_id": 6,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to intermittent network issues affecting the mock server's ability to resolve hostnames and establish connections. The `UnknownHostException` and `SocketException` indicate that the tests are failing due to temporary DNS resolution failures and network unreachability, which can occur if the test environment is unstable or if there are resource constraints impacting network connectivity. This suggests that the tests are sensitive to the state of the network and the availability of the mock server, leading to simultaneous failures.",
+      "ground_truth": "DNS and socket issues."
+    },
+    {
+      "run": 1,
+      "project": "square-okhttp",
+      "cluster_id": 20,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is likely due to intermittent network connectivity issues affecting the external resources they depend on. The `SocketException` in Test 1 indicates that the network is unreachable, while Test 2's authentication process may also be impacted by the same unstable network conditions, leading to inconsistent results and failures when attempting to connect to the authentication server or other external services. This suggests that the tests are sensitive to the overall network environment, which can fluctuate during test execution.",
+      "ground_truth": "Network unreachable."
+    },
+    {
+      "run": 1,
+      "project": "square-okhttp",
+      "cluster_id": 20,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely a network connectivity issue, as indicated by the `SocketException: Network is unreachable (connect failed)` in the stack trace of Test 1. This suggests that the tests are dependent on external network resources, which may be temporarily unavailable or misconfigured during certain test runs, leading to intermittent failures in both tests that rely on network interactions. The failure of both tests together points to a common environmental issue, such as network instability or misconfigured network settings, affecting their ability to connect to required services.",
+      "ground_truth": "Network unreachable."
+    },
+    {
+      "run": 1,
+      "project": "wildfly-wildfly",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is likely related to resource contention and network latency affecting the JMS broker's responsiveness. Since both tests depend on timely interactions with the ActiveMQ message broker, any degradation in its performance—such as high load, insufficient resources, or network issues—can lead to timeouts and synchronization problems, causing both tests to fail intermittently when these conditions arise.",
+      "ground_truth": "Timeouts when waiting for network packets"
+    },
+    {
+      "run": 1,
+      "project": "wildfly-wildfly",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in both tests is likely related to a timeout in the JMS connection to the ActiveMQ broker, as indicated by the `ActiveMQConnectionTimedOutException`. This suggests that the broker may be experiencing resource contention or network issues, leading to delays in message processing and causing both tests to fail when they attempt to send messages. The tests' reliance on the JMS broker for message delivery and transaction handling means that any instability in the broker's responsiveness directly impacts their success.",
+      "ground_truth": "Timeouts when waiting for network packets"
+    },
+    {
+      "run": 1,
+      "project": "wildfly-wildfly",
+      "cluster_id": 3,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to timing and concurrency issues during the initialization and configuration of the Infinispan subsystem across different EAP versions. The tests depend on the readiness of external resources and the correct state of the environment, which can lead to race conditions or delays in resource availability, causing intermittent failures when the tests are executed in quick succession or under varying load conditions. Additionally, the reliance on external dependency resolution from the Red Hat Maven repository introduces network instability, compounding the timing issues and resulting in consistent failures across all tests.",
+      "ground_truth": "There is a problem connecting to a JBOSS repository to find an artifact caused\nby reliance on an external web server that is unable to process the request and\nreturns a 500 error. 500 could imply a flaky problem with the server?"
+    },
+    {
+      "run": 1,
+      "project": "wildfly-wildfly",
+      "cluster_id": 3,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is an intermittent failure to resolve Maven artifacts from the Red Hat product repository, resulting in a 500 Internal Server Error. This issue is likely related to external dependency availability, where the repository may be temporarily down or experiencing issues, causing all tests that rely on fetching artifacts from it to fail simultaneously. The tests are dependent on specific versions of the `wildfly-clustering-infinispan-extension` artifact, and when the repository is unreachable, they all fail together due to the inability to retrieve necessary resources.",
+      "ground_truth": "There is a problem connecting to a JBOSS repository to find an artifact caused\nby reliance on an external web server that is unable to process the request and\nreturns a 500 error. 500 could imply a flaky problem with the server?"
+    },
+    {
+      "run": 1,
+      "project": "wro4j-wro4j",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in both `canLocateValidResource` and `testValidUrl` is the reliance on an external network resource, specifically the availability and stability of the URL `http://www.google.com`. Intermittent network connectivity issues, such as latency, DNS resolution failures, or temporary unavailability of the external site, can lead to simultaneous timeouts and failures in both tests, making them susceptible to variations in network conditions. This common dependency on an external resource is the primary factor contributing to their flakiness.",
+      "ground_truth": "Network issues."
+    },
+    {
+      "run": 1,
+      "project": "wro4j-wro4j",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **networking issue**, specifically a **SocketTimeoutException** indicating that the tests are unable to establish a connection to the external URL \"http://www.google.com\". This intermittent failure suggests that the tests are sensitive to network availability or latency, which can lead to timeouts when the network is slow or unavailable, causing both tests to fail simultaneously when the network conditions are unfavorable.",
+      "ground_truth": "Network issues."
+    },
+    {
+      "run": 1,
+      "project": "wro4j-wro4j",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all four tests is likely due to inadequate thread safety and state management within the `processor` instances used in the tests. The combination of concurrency issues and improper handling of the processor's internal state—especially after failures—leads to race conditions and inconsistent behavior, resulting in intermittent failures when tests are executed in parallel. This indicates a fundamental flaw in the design of the `processor` that affects its reliability under concurrent access.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction. (Some\nof the calls have signatures suggesting concurrency problems)."
+    },
+    {
+      "run": 1,
+      "project": "wro4j-wro4j",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is related to the concurrency and state management of the Ruby Sass processor. The tests are likely failing due to race conditions or improper handling of shared state when multiple threads attempt to access and modify the processor simultaneously. This can lead to inconsistent behavior, such as method access issues and linkage errors, particularly when the processor's internal state is altered by one thread while another is executing, resulting in intermittent failures across all tests that utilize the processor concurrently.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction. (Some\nof the calls have signatures suggesting concurrency problems)."
+    },
+    {
+      "run": 1,
+      "project": "wro4j-wro4j",
+      "cluster_id": 3,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely due to class loader conflicts and inconsistent initialization of the Ruby environment used by the JRuby engine across multiple test executions. This results in intermittent `LinkageError` and timing issues, particularly when the engine's state is affected by concurrency or external resource availability, leading to sporadic failures in processing methods. The combination of these factors creates an unstable testing environment that causes all three tests to fail together.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction."
+    },
+    {
+      "run": 1,
+      "project": "wro4j-wro4j",
+      "cluster_id": 3,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is related to the RubySassEngine's handling of class loading and method invocation in the JRuby environment. The stack traces indicate a `LinkageError` due to class loader conflicts, which can occur when multiple instances of the same class are loaded by different class loaders, leading to inconsistent method resolution. This issue is exacerbated by the repeated execution of the `RubySassEngine` in the tests, which can cause the engine to attempt to access methods that are not properly linked, resulting in intermittent failures across all tests that utilize this engine.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction."
+    },
+    {
+      "run": 1,
+      "project": "wro4j-wro4j",
+      "cluster_id": 4,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flakiness in both tests is likely related to inconsistent handling of invalid input files and the state of the Ruby environment during test execution. Variations in file accessibility, such as timing issues with file creation or permissions, combined with the RubySassEngine's inadequate error handling for malformed data, lead to unpredictable behavior and failures in both tests. This suggests that the tests are sensitive to the environment and input conditions, causing them to fail together when those conditions are not met.",
+      "ground_truth": "This cluster contains just two flaky tests that fail fairly frequently. The\nfailures of both tests are ultimately caused by an NPE from the method checkKey\nof the class BiVariableMap. Presumably null is being passed for the key\nargument. However, we cannot figure out what is causing this to occur\nintermittently."
+    },
+    {
+      "run": 1,
+      "project": "wro4j-wro4j",
+      "cluster_id": 4,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to the handling of invalid CSS input in the RubySass engine, which leads to a `NullPointerException` when processing certain files. This indicates that the engine may not be robustly validating input or managing its internal state, resulting in intermittent failures when it encounters unexpected or malformed data. The tests fail together because they both rely on the same underlying processing logic that is sensitive to the input provided, leading to cascading failures when that logic encounters issues.",
+      "ground_truth": "This cluster contains just two flaky tests that fail fairly frequently. The\nfailures of both tests are ultimately caused by an NPE from the method checkKey\nof the class BiVariableMap. Presumably null is being passed for the key\nargument. However, we cannot figure out what is causing this to occur\nintermittently."
+    },
+    {
+      "run": 2,
+      "project": "Alluxio-alluxio",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky tests is a combination of concurrency issues and timing problems related to the `mMasterInfo` operations and filesystem interactions. The tests frequently access and modify shared resources without proper synchronization, leading to race conditions and inconsistent states in the filesystem, which are exacerbated by transient resource availability and potential delays in processing. This shared vulnerability to timing and concurrency issues explains why all these tests fail together in the same test runs.",
+      "ground_truth": "DNS issue, missing file issue, lack of a connection to a (worker) host involving\nLocalTachyonCluster locally on the machine."
+    },
+    {
+      "run": 2,
+      "project": "Alluxio-alluxio",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to resource contention and timing issues within the Tachyon cluster environment, particularly concerning the availability of local workers and network resolution. The `IOException` indicating \"The machine does not have any local worker\" suggests that the cluster may not be able to allocate resources properly when multiple clients are trying to create files simultaneously, leading to failures in file operations. Additionally, the `UnknownHostException` points to potential networking issues, such as DNS resolution failures, which can further exacerbate the instability of the cluster during concurrent test execution.",
+      "ground_truth": "DNS issue, missing file issue, lack of a connection to a (worker) host involving\nLocalTachyonCluster locally on the machine."
+    },
+    {
+      "run": 2,
+      "project": "apache-ambari",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is the reliance on the availability and state of the external LDAP server and the database, which are both susceptible to timing and concurrency issues. The unavailability of the LDAP server can lead to `ServiceUnavailableException` in `testBadCredential`, while concurrent modifications to the shared `userDAO` object can cause race conditions in `testAuthenticate`, resulting in inconsistent test outcomes. This indicates that both tests are affected by external dependencies and shared state, leading to intermittent failures when those dependencies are not in a stable state.",
+      "ground_truth": "Socket closed, connection refused to LDAP server. This could be due to the LDAP\nserver not being available."
+    },
+    {
+      "run": 2,
+      "project": "apache-ambari",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in both tests is related to the unavailability of the LDAP server at `localhost:33389`, which leads to `ServiceUnavailableException` when attempting to authenticate users. This indicates that the LDAP service may not be running, is misconfigured, or is experiencing intermittent connectivity issues, causing both tests to fail when they attempt to interact with the LDAP server for authentication. The tests rely on the availability of this external dependency, and any instability in the LDAP service directly impacts their success.",
+      "ground_truth": "Socket closed, connection refused to LDAP server. This could be due to the LDAP\nserver not being available."
+    },
+    {
+      "run": 2,
+      "project": "apache-ambari",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flakiness of all these tests is a combination of concurrency issues and timing problems related to the shared state of clusters, services, and service components in a multi-threaded test environment. The lack of proper synchronization mechanisms allows multiple tests to modify the same resources simultaneously, leading to race conditions and inconsistent states that result in intermittent failures across all tests. Additionally, asynchronous operations and delays in state propagation exacerbate the timing issues, causing the tests to fail when expected conditions are not met in time.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 2,
+      "project": "apache-ambari",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is a **networking issue**, specifically related to DNS resolution failures, as indicated by the `java.net.UnknownHostException` stack traces. The tests intermittently fail due to the inability to resolve hostnames (e.g., `ip-172-31-63-221` and `ip-172-31-53-177`), which suggests that the tests rely on the local network configuration or DNS settings that are unstable or misconfigured, leading to temporary failures in name resolution during test execution.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is primarily related to networking instability and DNS resolution issues, compounded by concurrency problems in resource management. The intermittent `UnknownHostException` failures indicate that the test environment experiences transient network failures, while the locking issues with the MiniDFSCluster suggest that multiple tests are not properly isolated, leading to contention for shared filesystem resources. Together, these factors create an unreliable testing environment that results in consistent failures across multiple tests.",
+      "ground_truth": "Definitely some kind of networking issue, possibly some kind of filesystem\npollution (locked directories)."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **networking issue**, specifically related to **DNS resolution failures**. The `java.net.UnknownHostException` indicates that the tests are unable to resolve the hostnames of the nodes in the HBase cluster, leading to failures in establishing connections required for the tests to execute properly. This intermittent DNS resolution problem can cause multiple tests that rely on networked components to fail simultaneously.",
+      "ground_truth": "Definitely some kind of networking issue, possibly some kind of filesystem\npollution (locked directories)."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 7,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flakiness in both tests is the improper handling of resource cleanup and synchronization in the asynchronous operations of HBase. Both tests fail due to timing issues where the system does not guarantee that previous table operations (creation, deletion, enabling, or disabling) have fully completed before subsequent operations are attempted, leading to resource contention and intermittent failures. This indicates a need for better synchronization mechanisms or explicit waits to ensure that HBase operations are fully processed before proceeding with subsequent test actions.",
+      "ground_truth": "In some cases, the method disableTable fails due to some kind of timeout. In\nother failures, the method createTable fails for various reasons (\"directory\nalready exists\"). Could be a resource leak where disableTable does not clean up\nafter itself, among other things. The reasons why disableTable fails is unclear."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 7,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a race condition related to the HBase table creation process, specifically the handling of HLog directories. When `testHundredsOfTable` creates multiple tables in quick succession, it can lead to attempts to create tables with the same HLog directory, resulting in the `java.io.IOException: Target HLog directory already exists` error. This issue is exacerbated by the concurrent execution of tests, which can interfere with the cleanup and state management of HBase, causing both tests to fail intermittently due to resource contention and timing issues.",
+      "ground_truth": "In some cases, the method disableTable fails due to some kind of timeout. In\nother failures, the method createTable fails for various reasons (\"directory\nalready exists\"). Could be a resource leak where disableTable does not clean up\nafter itself, among other things. The reasons why disableTable fails is unclear."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 10,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely due to timing and concurrency issues related to the HBase cluster's state and data availability. Specifically, the tests fail together because they rely on consistent access to region metadata and table data, which can be disrupted by race conditions or delays in data initialization and modification. This indicates that the tests are sensitive to the HBase environment's readiness and concurrent operations, leading to intermittent failures when the cluster is under load or not fully synchronized.",
+      "ground_truth": "All the flaky tests fail because Writables.getWritable throws an NPE. This\nmethod takes a single argument \"bytes\", which is presumably null when it fails.\nFollowing the stack trace, we can see that this method is called indirectly\nfrom MetaScanner.metaScan via HTable$1.processRow. It looks like the metaScan\nmethod calls processRow with a value that comes from the method\nHConnectionManager.getRegionServerWithRetries. Therefore, I'm assuming that the\nNPE is actually the result of some kind of networking type error."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 10,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a race condition or timing issue related to the HBase region metadata not being fully initialized or available when the tests attempt to access it. Specifically, the `NullPointerException` in the stack trace indicates that the `MetaScanner` is unable to retrieve region information, which can occur if the HBase cluster is not in a stable state or if the metadata is not yet populated, leading to intermittent failures across all tests that rely on scanning the same metadata. This suggests a concurrency or timing issue with the HBase setup during test execution.",
+      "ground_truth": "All the flaky tests fail because Writables.getWritable throws an NPE. This\nmethod takes a single argument \"bytes\", which is presumably null when it fails.\nFollowing the stack trace, we can see that this method is called indirectly\nfrom MetaScanner.metaScan via HTable$1.processRow. It looks like the metaScan\nmethod calls processRow with a value that comes from the method\nHConnectionManager.getRegionServerWithRetries. Therefore, I'm assuming that the\nNPE is actually the result of some kind of networking type error."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 13,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all three tests is a race condition stemming from timing and concurrency issues in the HBase cluster's region server management. Specifically, the tests are sensitive to the asynchronous nature of server state transitions and region assignments, leading to intermittent failures when operations such as server shutdown, startup, and region reassignment do not complete in the expected order or timeframe. This results in scenarios where regions are not properly released or reassigned, causing exceptions like `NotServingRegionException` and `BindException` to occur.",
+      "ground_truth": "Timeouts and hitting retry limits, the root cause of which appears to be some\nkind of networking type error."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 13,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is related to the timing and state management of the HBase region servers during transitions, particularly when a region server is abruptly killed or restarted. This leads to a race condition where regions become temporarily unavailable, resulting in `NotServingRegionException` errors as the tests attempt to access regions that are in transition or not yet fully online. The tests' reliance on the timely processing of region state changes exacerbates the flakiness, as they all depend on the same underlying cluster state and region availability.",
+      "ground_truth": "Timeouts and hitting retry limits, the root cause of which appears to be some\nkind of networking type error."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 14,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is improper resource management and cleanup in the HBase testing environment, particularly concerning the HLog directory in HDFS. This leads to race conditions and timing issues, where tests attempt to create or access resources that are not fully cleared from previous runs, resulting in intermittent failures due to conflicts and inconsistent states in the filesystem and data propagation across the distributed system.",
+      "ground_truth": "All the flaky tests call HBaseAdmin.createTable, which tries to create a new\nlogging directory but fails because it already exists."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 14,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is the failure to create HBase tables due to the existence of target HLog directories that already exist, as indicated by the `java.io.IOException: Target HLog directory already exists` error in the stack traces. This issue is likely caused by improper cleanup of HBase resources between test runs, leading to conflicts when attempting to create new tables with the same names or configurations. The tests are sensitive to the state of the HBase environment, which is not being reset correctly, resulting in consistent failures across multiple tests.",
+      "ground_truth": "All the flaky tests call HBaseAdmin.createTable, which tries to create a new\nlogging directory but fails because it already exists."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 19,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky tests is a combination of resource contention and timing issues within the Hadoop ecosystem, particularly related to the HDFS and HBase components. Intermittent failures arise from overlapping test executions that do not properly isolate their resources, leading to race conditions, unavailability of services (like NameNode or DataNodes), and inconsistent states due to asynchronous operations. This shared environment instability, compounded by potential network connectivity issues, results in all tests failing together during concurrent runs.",
+      "ground_truth": "Networking issues (name resolution), locked directory again."
+    },
+    {
+      "run": 2,
+      "project": "apache-hbase",
+      "cluster_id": 19,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is related to issues with the Hadoop Distributed File System (HDFS) and its configuration, specifically around network connectivity and resource availability. The stack traces indicate failures due to `UnknownHostException` and `Connection refused`, suggesting that the tests intermittently fail when the HDFS services (like NameNode or DataNode) are not reachable or properly initialized, likely due to timing issues or resource contention in the test environment. This leads to failures in file replication and data access, causing all tests that depend on HDFS to fail together.",
+      "ground_truth": "Networking issues (name resolution), locked directory again."
+    },
+    {
+      "run": 2,
+      "project": "elasticjob-elastic-job-lite",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in both `assertFindJobExecutionEventsWithTime` and `assertFindJobStatusTraceEventsWithTime` is likely due to timing issues stemming from the asynchronous processing of job events and the eventual consistency of the database. Both tests assume immediate availability of job-related data after creation, but delays in event logging or database updates can lead to intermittent failures in assertions, indicating a concurrency issue where the tests do not adequately account for the time required for data to be fully persisted and queryable.",
+      "ground_truth": "This is a very small cluster concerning two flaky tests that only fail on a\nsingle run and look very similar. They both fail because they assert that the\nreturn value of result.getTotal, where result is the return value of\nrepository.findJobStatusTraceEvents, is 0 whereas it is actually 357. The only\nthing that sets these test cases apart from the other test cases in the test\nclass is their use of time. Therefore, I am assuming that this is time related\nflakiness."
+    },
+    {
+      "run": 2,
+      "project": "elasticjob-elastic-job-lite",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to a timing issue with the underlying database state, specifically the asynchronous nature of job event logging and retrieval. Both tests rely on the presence of job execution and status trace events within a specific time window, and if the events are not fully committed or indexed in the database by the time the assertions are made, it can lead to inconsistent results, such as unexpected totals or row counts. This suggests a potential race condition or delay in event processing that affects both tests simultaneously.",
+      "ground_truth": "This is a very small cluster concerning two flaky tests that only fail on a\nsingle run and look very similar. They both fail because they assert that the\nreturn value of result.getTotal, where result is the return value of\nrepository.findJobStatusTraceEvents, is 0 whereas it is actually 357. The only\nthing that sets these test cases apart from the other test cases in the test\nclass is their use of time. Therefore, I am assuming that this is time related\nflakiness."
+    },
+    {
+      "run": 2,
+      "project": "hector-client-hector",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all ten tests is likely due to the eventual consistency model of the Cassandra database combined with concurrency issues. The tests perform rapid insert, delete, and retrieval operations without adequate synchronization or waiting mechanisms, leading to race conditions and inconsistent states where data may not be fully propagated or available for reads at the time of assertions. This results in intermittent failures as the tests attempt to access data that is not yet committed or has not been fully deleted, particularly under load or in a distributed environment.",
+      "ground_truth": "Internal error in Cassandra."
+    },
+    {
+      "run": 2,
+      "project": "hector-client-hector",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a concurrency issue related to the Cassandra database's internal state management and eventual consistency model. When multiple tests perform simultaneous insertions, deletions, and updates without proper isolation, they can lead to transient states where data is not yet fully committed or visible, resulting in `HCassandraInternalException` and `HNotFoundException` errors. This inconsistency is exacerbated by the lack of synchronization or delays between operations, causing tests to intermittently fail when they rely on the immediate availability of data that may not yet be fully processed by Cassandra.",
+      "ground_truth": "Internal error in Cassandra."
+    },
+    {
+      "run": 2,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in all three tests is likely related to inconsistent handling of URL encoding and decoding across different environments or configurations, compounded by timing issues in the asynchronous processing of HTTP requests. The tests depend on the correct encoding of special characters (like Unicode and percent signs) and the timely updating of the `path` variable, which may not be reliably synchronized with the request handling, leading to intermittent assertion failures when the expected values do not match. This combination of encoding inconsistencies and lack of synchronization creates a fragile testing environment where all tests fail together.",
+      "ground_truth": "Connection could not be made over the internet and the URL got reset to the\nempty string."
+    },
+    {
+      "run": 2,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely related to the handling of URL encoding and decoding in the `RequestHandler`. Specifically, the tests fail when the encoded URL does not match the expected decoded path due to improper encoding of special characters (like Unicode, percent signs, and spaces). This inconsistency can arise from differences in how the server or the underlying HTTP library processes these characters, leading to intermittent failures when the encoding does not align with the expected behavior, especially under varying conditions such as server configuration or request handling timing.",
+      "ground_truth": "Connection could not be made over the internet and the URL got reset to the\nempty string."
+    },
+    {
+      "run": 2,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flakiness of all these tests is a combination of timing and concurrency issues related to the handling of HTTP requests and responses in a potentially overloaded or improperly synchronized test environment. The tests depend on the timely processing of requests by the `RequestHandler` and the availability of the local server, which may not be consistently ready to handle multiple concurrent requests, leading to race conditions and inconsistent state across the tests. This suggests that the test suite may be sensitive to resource contention and timing delays, particularly when run in parallel or under load.",
+      "ground_truth": "Network issues when connecting to server."
+    },
+    {
+      "run": 2,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely related to the configuration and availability of the local HTTP server (localhost) used for handling requests. If the server is not properly initialized, is overloaded, or experiences intermittent connectivity issues, it can lead to failures in establishing connections, resulting in `null` values or exceptions like `IOException` and `ClassCastException`. This inconsistency in server response or availability directly impacts all tests that rely on it, causing them to fail together.",
+      "ground_truth": "Network issues when connecting to server."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely related to timing and concurrency issues within the Spring application context initialization process, compounded by inconsistent network configurations and resource availability. The tests are sensitive to the order and timing of bean initialization, particularly for components like `SpringLiquibase`, which may not be fully ready when assertions are made, leading to intermittent failures across multiple tests that rely on similar contexts and external dependencies. Additionally, network-related issues, such as hostname resolution and local address retrieval, further exacerbate the flakiness by introducing variability in the test environment.",
+      "ground_truth": "Root issue to do with DNS, causing issues creating beans, which cascades into\na failure of the whole framework."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a failure to resolve the local host name to an IP address, which leads to `java.net.UnknownHostException` or `com.gemstone.gemfire.InternalGemFireError`. This issue is likely related to networking or DNS resolution problems in the test environment, causing the application context to fail to initialize properly across multiple tests that depend on networked components or services, such as GemFire and Liquibase.",
+      "ground_truth": "Root issue to do with DNS, causing issues creating beans, which cascades into\na failure of the whole framework."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 10,
+      "method": "individual",
+      "diagnosis": "The shared root cause for the flaky failures of both tests is likely a combination of configuration issues and external dependency mismatches, specifically related to the Spring Framework versions being used. The `NoSuchMethodError` in the first test indicates a version conflict that can lead to inconsistent class loading, while the concurrency and timing issues in the second test may be exacerbated by the same underlying dependency misconfiguration, resulting in both tests failing together due to their reliance on the same faulty classpath and resource states.",
+      "ground_truth": "These two test cases execute a similar command and assert that the error output\nis empty, among other things. In most runs, this is the case, but sometimes the\nerror output contains a stack trace whose root cause is a NoSuchMethodError\ncaused by a missing isAllowEagerClassLoading method. Googling, I found this may\nbe caused by using the wrong version of Spring Framework. Looking at the\nFlakeFlagger scripts, I believe that the project was cloned from github and\nreinstalled for every test run. My best guess is there's some kind of\nnon-determinism involving the version of Spring Framework that ends up being\ninstalled."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 10,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a `NoSuchMethodError` indicating a mismatch in the Spring framework version being used, specifically related to the `DefaultListableBeanFactory.isAllowEagerClassLoading()` method. This suggests that the tests are likely running in an environment where conflicting versions of Spring dependencies are present, leading to inconsistent behavior during the application context initialization. The intermittent failures arise from the tests relying on a specific method that may not exist in the loaded version, causing the tests to fail together when that version is invoked.",
+      "ground_truth": "These two test cases execute a similar command and assert that the error output\nis empty, among other things. In most runs, this is the case, but sometimes the\nerror output contains a stack trace whose root cause is a NoSuchMethodError\ncaused by a missing isAllowEagerClassLoading method. Googling, I found this may\nbe caused by using the wrong version of Spring Framework. Looking at the\nFlakeFlagger scripts, I believe that the project was cloned from github and\nreinstalled for every test run. My best guess is there's some kind of\nnon-determinism involving the version of Spring Framework that ends up being\ninstalled."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 11,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is a combination of timing and resource contention issues within the test environment. The tests are sensitive to execution timing and rely on the availability of resources (such as script outputs and class files) that may not be consistently accessible due to parallel execution or misconfiguration, leading to intermittent failures when the environment is under load or not properly set up. This suggests that the tests are competing for limited resources or experiencing race conditions, which collectively impacts their reliability.",
+      "ground_truth": "Similar to cluster10, these test cases execute a command and make an assertion\nabout its output. Also similar to cluster10, the stack traces in traces2 seem to\nbe based around the missing method isAllowEagerClassLoading. In traces1, they\nrefer to a missing \"class path resource\" for the class AopAutoConfiguration.\nPerhaps interestingly, AopAutoConfiguration is part of the project code. Due to\nthe similarities with cluster10, I assume that root cause is the same, some kind\nof non-determinism involving the version of Spring Framework."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 11,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a missing or misconfigured classpath resource, specifically the absence of the `AopAutoConfiguration.class` file, which leads to `FileNotFoundException` during application startup. This indicates that the tests are likely dependent on a specific Spring Boot configuration or dependency that is not being correctly resolved or included in the classpath, causing all tests to fail when they attempt to start the Spring application context. The intermittent nature of the failures suggests that the classpath may not be consistently set up across different test runs, possibly due to environmental issues or dependency resolution problems.",
+      "ground_truth": "Similar to cluster10, these test cases execute a command and make an assertion\nabout its output. Also similar to cluster10, the stack traces in traces2 seem to\nbe based around the missing method isAllowEagerClassLoading. In traces1, they\nrefer to a missing \"class path resource\" for the class AopAutoConfiguration.\nPerhaps interestingly, AopAutoConfiguration is part of the project code. Due to\nthe similarities with cluster10, I assume that root cause is the same, some kind\nof non-determinism involving the version of Spring Framework."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 12,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is related to timing and resource contention in the test environment. Many tests depend on the successful execution of Groovy scripts or external services that may not be fully initialized or responsive when assertions are made, leading to intermittent failures. Additionally, the inconsistency in the configuration and availability of dependencies, such as messaging systems and network services, exacerbates these timing issues, causing all tests to fail together under certain conditions.",
+      "ground_truth": "Similar to cluster10 and cluster11, these test cases execute a command and make\nan assertion about its output. traces2 concerns isAllowEagerClassLoading and\ntraces3 concerns AopAutoConfiguration. What's new about this cluster is the\nexceptions in traces1, which are all ConnectException. Initially, I assumed this\nwas network related, but upon inspecting the source code of CliTester, it looks\nlike it's trying to connect to localhost."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 12,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a failure in establishing network connections, as indicated by the `java.net.ConnectException: Connection refused` error in the stack traces. This suggests that the tests are attempting to connect to a service (possibly a web server or messaging broker) that is not available or not started properly during the test execution, leading to intermittent failures across all tests that rely on this connectivity. The absence of necessary configuration files and the inability to load required classes further exacerbate the issue, indicating potential misconfiguration or missing dependencies in the test environment.",
+      "ground_truth": "Similar to cluster10 and cluster11, these test cases execute a command and make\nan assertion about its output. traces2 concerns isAllowEagerClassLoading and\ntraces3 concerns AopAutoConfiguration. What's new about this cluster is the\nexceptions in traces1, which are all ConnectException. Initially, I assumed this\nwas network related, but upon inspecting the source code of CliTester, it looks\nlike it's trying to connect to localhost."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 15,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to inconsistent configuration and resource contention in the test environment, which affects both timing and dependency resolution. The combination of asynchronous command execution and potential conflicts in library versions leads to intermittent failures, as the tests rely on timely and correctly formatted outputs that may not be available due to environmental factors such as CPU load, memory constraints, or misaligned dependencies. This results in a fragile test setup that fails under varying conditions, causing all tests to fail together.",
+      "ground_truth": "What's new here is the failure of debugAddsAutoconfigReport in traces3 (null\nassertion), though there's not much to go on in the error message."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 15,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **dependency mismatch** or **incompatibility** within the Spring Boot framework, specifically related to the `NoSuchMethodError` for `DefaultListableBeanFactory.isAllowEagerClassLoading()`. This indicates that the tests are likely running against an incorrect or outdated version of the Spring framework that does not support the expected method, leading to application startup failures and subsequent assertion errors across all tests. The failure to find necessary configuration files and the inability to start the application context further exacerbate the issue, causing all tests to fail together.",
+      "ground_truth": "What's new here is the failure of debugAddsAutoconfigReport in traces3 (null\nassertion), though there's not much to go on in the error message."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 16,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely due to inconsistent and misconfigured dependency resolution settings in the build environment, particularly related to the use of outdated or incorrect repository URLs (HTTP instead of HTTPS) and intermittent network issues affecting access to external repositories. This leads to failures in fetching required artifacts, resulting in sporadic test failures across multiple tests that rely on the same external dependencies.",
+      "ground_truth": "What's new in this cluster is Gradle issues, could possibly have something to\ndo with DNS? (like cluster1)."
+    },
+    {
+      "run": 2,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 16,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a failure in dependency resolution due to the use of HTTP URLs for Maven repositories, which are no longer supported as they require HTTPS. This results in multiple tests failing to retrieve necessary artifacts, leading to `DependencyResolutionException` errors across various tests that rely on the same dependency management setup. The intermittent nature of the failures may also be exacerbated by network issues or repository availability, but the primary issue is the outdated repository configuration.",
+      "ground_truth": "What's new in this cluster is Gradle issues, could possibly have something to\ndo with DNS? (like cluster1)."
+    },
+    {
+      "run": 2,
+      "project": "square-okhttp",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to timing and concurrency issues within the mock server's response handling. The tests depend on the sequential processing of requests and responses, but the asynchronous nature of the server can lead to race conditions, where responses are not processed in the expected order or timing, resulting in intermittent failures across all tests. Additionally, the reliance on DNS resolution and network conditions further exacerbates the flakiness, as these factors can introduce variability in the server's availability and responsiveness during test execution.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 2,
+      "project": "square-okhttp",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a `java.net.UnknownHostException` due to a temporary failure in name resolution for the hostname `ip-172-31-63-122`. This indicates a networking issue, likely related to DNS resolution or the local network configuration, which affects the ability of the tests to connect to the mock server consistently. Since all tests rely on the mock server's URL for their operations, any intermittent DNS resolution failure will lead to simultaneous failures across all tests.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 2,
+      "project": "square-okhttp",
+      "cluster_id": 6,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to intermittent network instability or misconfiguration in the test environment, which affects DNS resolution and network connectivity. This instability can lead to timing issues with connection closures and transient failures in resolving hostnames, causing all three tests to fail together due to their reliance on consistent network conditions and external dependencies.",
+      "ground_truth": "DNS and socket issues."
+    },
+    {
+      "run": 2,
+      "project": "square-okhttp",
+      "cluster_id": 6,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to intermittent network issues affecting the mock server's ability to resolve hostnames and establish connections. The `UnknownHostException` and `SocketException` indicate that the tests are failing due to temporary DNS resolution failures and network unreachability, which can occur if the test environment is unstable or if there are resource constraints impacting network connectivity. This suggests that the tests are sensitive to the state of the network and the availability of the mock server, leading to simultaneous failures.",
+      "ground_truth": "DNS and socket issues."
+    },
+    {
+      "run": 2,
+      "project": "square-okhttp",
+      "cluster_id": 20,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is likely due to intermittent network connectivity issues affecting the external resources they depend on. The `SocketException` in Test 1 indicates that the network is unreachable, while Test 2's authentication process may also be impacted by the same unstable network conditions, leading to inconsistent results and failures when attempting to connect to the authentication server or other external services. This suggests that the tests are sensitive to the overall network environment, which can fluctuate during test execution.",
+      "ground_truth": "Network unreachable."
+    },
+    {
+      "run": 2,
+      "project": "square-okhttp",
+      "cluster_id": 20,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely a network connectivity issue, as indicated by the `SocketException: Network is unreachable (connect failed)` in the stack trace of Test 1. This suggests that the tests are dependent on external network resources, which may be temporarily unavailable or misconfigured during certain test runs, leading to intermittent failures in both tests that rely on network interactions. The failure of both tests together points to a common environmental issue, such as network instability or misconfigured network settings, affecting their ability to connect to required services.",
+      "ground_truth": "Network unreachable."
+    },
+    {
+      "run": 2,
+      "project": "wildfly-wildfly",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is likely related to resource contention and network latency affecting the JMS broker's responsiveness. Since both tests depend on timely interactions with the ActiveMQ message broker, any degradation in its performance—such as high load, insufficient resources, or network issues—can lead to timeouts and synchronization problems, causing both tests to fail intermittently when these conditions arise.",
+      "ground_truth": "Timeouts when waiting for network packets"
+    },
+    {
+      "run": 2,
+      "project": "wildfly-wildfly",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in both tests is likely related to a timeout in the JMS connection to the ActiveMQ broker, as indicated by the `ActiveMQConnectionTimedOutException`. This suggests that the broker may be experiencing resource contention or network issues, leading to delays in message processing and causing both tests to fail when they attempt to send messages. The tests' reliance on the JMS broker for message delivery and transaction handling means that any instability in the broker's responsiveness directly impacts their success.",
+      "ground_truth": "Timeouts when waiting for network packets"
+    },
+    {
+      "run": 2,
+      "project": "wildfly-wildfly",
+      "cluster_id": 3,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to timing and concurrency issues during the initialization and configuration of the Infinispan subsystem across different EAP versions. The tests depend on the readiness of external resources and the correct state of the environment, which can lead to race conditions or delays in resource availability, causing intermittent failures when the tests are executed in quick succession or under varying load conditions. Additionally, the reliance on external dependency resolution from the Red Hat Maven repository introduces network instability, compounding the timing issues and resulting in consistent failures across all tests.",
+      "ground_truth": "There is a problem connecting to a JBOSS repository to find an artifact caused\nby reliance on an external web server that is unable to process the request and\nreturns a 500 error. 500 could imply a flaky problem with the server?"
+    },
+    {
+      "run": 2,
+      "project": "wildfly-wildfly",
+      "cluster_id": 3,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is an intermittent failure to resolve Maven artifacts from the Red Hat product repository, resulting in a 500 Internal Server Error. This issue is likely related to external dependency availability, where the repository may be temporarily down or experiencing issues, causing all tests that rely on fetching artifacts from it to fail simultaneously. The tests are dependent on specific versions of the `wildfly-clustering-infinispan-extension` artifact, and when the repository is unreachable, they all fail together due to the inability to retrieve necessary resources.",
+      "ground_truth": "There is a problem connecting to a JBOSS repository to find an artifact caused\nby reliance on an external web server that is unable to process the request and\nreturns a 500 error. 500 could imply a flaky problem with the server?"
+    },
+    {
+      "run": 2,
+      "project": "wro4j-wro4j",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in both `canLocateValidResource` and `testValidUrl` is the reliance on an external network resource, specifically the availability and stability of the URL `http://www.google.com`. Intermittent network connectivity issues, such as latency, DNS resolution failures, or temporary unavailability of the external site, can lead to simultaneous timeouts and failures in both tests, making them susceptible to variations in network conditions. This common dependency on an external resource is the primary factor contributing to their flakiness.",
+      "ground_truth": "Network issues."
+    },
+    {
+      "run": 2,
+      "project": "wro4j-wro4j",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **networking issue**, specifically a **SocketTimeoutException** indicating that the tests are unable to establish a connection to the external URL \"http://www.google.com\". This intermittent failure suggests that the tests are sensitive to network availability or latency, which can lead to timeouts when the network is slow or unavailable, causing both tests to fail simultaneously when the network conditions are unfavorable.",
+      "ground_truth": "Network issues."
+    },
+    {
+      "run": 2,
+      "project": "wro4j-wro4j",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all four tests is likely due to inadequate thread safety and state management within the `processor` instances used in the tests. The combination of concurrency issues and improper handling of the processor's internal state—especially after failures—leads to race conditions and inconsistent behavior, resulting in intermittent failures when tests are executed in parallel. This indicates a fundamental flaw in the design of the `processor` that affects its reliability under concurrent access.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction. (Some\nof the calls have signatures suggesting concurrency problems)."
+    },
+    {
+      "run": 2,
+      "project": "wro4j-wro4j",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is related to the concurrency and state management of the Ruby Sass processor. The tests are likely failing due to race conditions or improper handling of shared state when multiple threads attempt to access and modify the processor simultaneously. This can lead to inconsistent behavior, such as method access issues and linkage errors, particularly when the processor's internal state is altered by one thread while another is executing, resulting in intermittent failures across all tests that utilize the processor concurrently.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction. (Some\nof the calls have signatures suggesting concurrency problems)."
+    },
+    {
+      "run": 2,
+      "project": "wro4j-wro4j",
+      "cluster_id": 3,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely due to class loader conflicts and inconsistent initialization of the Ruby environment used by the JRuby engine across multiple test executions. This results in intermittent `LinkageError` and timing issues, particularly when the engine's state is affected by concurrency or external resource availability, leading to sporadic failures in processing methods. The combination of these factors creates an unstable testing environment that causes all three tests to fail together.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction."
+    },
+    {
+      "run": 2,
+      "project": "wro4j-wro4j",
+      "cluster_id": 3,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is related to the RubySassEngine's handling of class loading and method invocation in the JRuby environment. The stack traces indicate a `LinkageError` due to class loader conflicts, which can occur when multiple instances of the same class are loaded by different class loaders, leading to inconsistent method resolution. This issue is exacerbated by the repeated execution of the `RubySassEngine` in the tests, which can cause the engine to attempt to access methods that are not properly linked, resulting in intermittent failures across all tests that utilize this engine.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction."
+    },
+    {
+      "run": 2,
+      "project": "wro4j-wro4j",
+      "cluster_id": 4,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flakiness in both tests is likely related to inconsistent handling of invalid input files and the state of the Ruby environment during test execution. Variations in file accessibility, such as timing issues with file creation or permissions, combined with the RubySassEngine's inadequate error handling for malformed data, lead to unpredictable behavior and failures in both tests. This suggests that the tests are sensitive to the environment and input conditions, causing them to fail together when those conditions are not met.",
+      "ground_truth": "This cluster contains just two flaky tests that fail fairly frequently. The\nfailures of both tests are ultimately caused by an NPE from the method checkKey\nof the class BiVariableMap. Presumably null is being passed for the key\nargument. However, we cannot figure out what is causing this to occur\nintermittently."
+    },
+    {
+      "run": 2,
+      "project": "wro4j-wro4j",
+      "cluster_id": 4,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to the handling of invalid CSS input in the RubySass engine, which leads to a `NullPointerException` when processing certain files. This indicates that the engine may not be robustly validating input or managing its internal state, resulting in intermittent failures when it encounters unexpected or malformed data. The tests fail together because they both rely on the same underlying processing logic that is sensitive to the input provided, leading to cascading failures when that logic encounters issues.",
+      "ground_truth": "This cluster contains just two flaky tests that fail fairly frequently. The\nfailures of both tests are ultimately caused by an NPE from the method checkKey\nof the class BiVariableMap. Presumably null is being passed for the key\nargument. However, we cannot figure out what is causing this to occur\nintermittently."
+    },
+    {
+      "run": 3,
+      "project": "Alluxio-alluxio",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky tests is a combination of concurrency issues and timing problems related to the `mMasterInfo` operations and filesystem interactions. The tests frequently access and modify shared resources without proper synchronization, leading to race conditions and inconsistent states in the filesystem, which are exacerbated by transient resource availability and potential delays in processing. This shared vulnerability to timing and concurrency issues explains why all these tests fail together in the same test runs.",
+      "ground_truth": "DNS issue, missing file issue, lack of a connection to a (worker) host involving\nLocalTachyonCluster locally on the machine."
+    },
+    {
+      "run": 3,
+      "project": "Alluxio-alluxio",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to resource contention and timing issues within the Tachyon cluster environment, particularly concerning the availability of local workers and network resolution. The `IOException` indicating \"The machine does not have any local worker\" suggests that the cluster may not be able to allocate resources properly when multiple clients are trying to create files simultaneously, leading to failures in file operations. Additionally, the `UnknownHostException` points to potential networking issues, such as DNS resolution failures, which can further exacerbate the instability of the cluster during concurrent test execution.",
+      "ground_truth": "DNS issue, missing file issue, lack of a connection to a (worker) host involving\nLocalTachyonCluster locally on the machine."
+    },
+    {
+      "run": 3,
+      "project": "apache-ambari",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is the reliance on the availability and state of the external LDAP server and the database, which are both susceptible to timing and concurrency issues. The unavailability of the LDAP server can lead to `ServiceUnavailableException` in `testBadCredential`, while concurrent modifications to the shared `userDAO` object can cause race conditions in `testAuthenticate`, resulting in inconsistent test outcomes. This indicates that both tests are affected by external dependencies and shared state, leading to intermittent failures when those dependencies are not in a stable state.",
+      "ground_truth": "Socket closed, connection refused to LDAP server. This could be due to the LDAP\nserver not being available."
+    },
+    {
+      "run": 3,
+      "project": "apache-ambari",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in both tests is related to the unavailability of the LDAP server at `localhost:33389`, which leads to `ServiceUnavailableException` when attempting to authenticate users. This indicates that the LDAP service may not be running, is misconfigured, or is experiencing intermittent connectivity issues, causing both tests to fail when they attempt to interact with the LDAP server for authentication. The tests rely on the availability of this external dependency, and any instability in the LDAP service directly impacts their success.",
+      "ground_truth": "Socket closed, connection refused to LDAP server. This could be due to the LDAP\nserver not being available."
+    },
+    {
+      "run": 3,
+      "project": "apache-ambari",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flakiness of all these tests is a combination of concurrency issues and timing problems related to the shared state of clusters, services, and service components in a multi-threaded test environment. The lack of proper synchronization mechanisms allows multiple tests to modify the same resources simultaneously, leading to race conditions and inconsistent states that result in intermittent failures across all tests. Additionally, asynchronous operations and delays in state propagation exacerbate the timing issues, causing the tests to fail when expected conditions are not met in time.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 3,
+      "project": "apache-ambari",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is a **networking issue**, specifically related to DNS resolution failures, as indicated by the `java.net.UnknownHostException` stack traces. The tests intermittently fail due to the inability to resolve hostnames (e.g., `ip-172-31-63-221` and `ip-172-31-53-177`), which suggests that the tests rely on the local network configuration or DNS settings that are unstable or misconfigured, leading to temporary failures in name resolution during test execution.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is primarily related to networking instability and DNS resolution issues, compounded by concurrency problems in resource management. The intermittent `UnknownHostException` failures indicate that the test environment experiences transient network failures, while the locking issues with the MiniDFSCluster suggest that multiple tests are not properly isolated, leading to contention for shared filesystem resources. Together, these factors create an unreliable testing environment that results in consistent failures across multiple tests.",
+      "ground_truth": "Definitely some kind of networking issue, possibly some kind of filesystem\npollution (locked directories)."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **networking issue**, specifically related to **DNS resolution failures**. The `java.net.UnknownHostException` indicates that the tests are unable to resolve the hostnames of the nodes in the HBase cluster, leading to failures in establishing connections required for the tests to execute properly. This intermittent DNS resolution problem can cause multiple tests that rely on networked components to fail simultaneously.",
+      "ground_truth": "Definitely some kind of networking issue, possibly some kind of filesystem\npollution (locked directories)."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 7,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flakiness in both tests is the improper handling of resource cleanup and synchronization in the asynchronous operations of HBase. Both tests fail due to timing issues where the system does not guarantee that previous table operations (creation, deletion, enabling, or disabling) have fully completed before subsequent operations are attempted, leading to resource contention and intermittent failures. This indicates a need for better synchronization mechanisms or explicit waits to ensure that HBase operations are fully processed before proceeding with subsequent test actions.",
+      "ground_truth": "In some cases, the method disableTable fails due to some kind of timeout. In\nother failures, the method createTable fails for various reasons (\"directory\nalready exists\"). Could be a resource leak where disableTable does not clean up\nafter itself, among other things. The reasons why disableTable fails is unclear."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 7,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a race condition related to the HBase table creation process, specifically the handling of HLog directories. When `testHundredsOfTable` creates multiple tables in quick succession, it can lead to attempts to create tables with the same HLog directory, resulting in the `java.io.IOException: Target HLog directory already exists` error. This issue is exacerbated by the concurrent execution of tests, which can interfere with the cleanup and state management of HBase, causing both tests to fail intermittently due to resource contention and timing issues.",
+      "ground_truth": "In some cases, the method disableTable fails due to some kind of timeout. In\nother failures, the method createTable fails for various reasons (\"directory\nalready exists\"). Could be a resource leak where disableTable does not clean up\nafter itself, among other things. The reasons why disableTable fails is unclear."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 10,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely due to timing and concurrency issues related to the HBase cluster's state and data availability. Specifically, the tests fail together because they rely on consistent access to region metadata and table data, which can be disrupted by race conditions or delays in data initialization and modification. This indicates that the tests are sensitive to the HBase environment's readiness and concurrent operations, leading to intermittent failures when the cluster is under load or not fully synchronized.",
+      "ground_truth": "All the flaky tests fail because Writables.getWritable throws an NPE. This\nmethod takes a single argument \"bytes\", which is presumably null when it fails.\nFollowing the stack trace, we can see that this method is called indirectly\nfrom MetaScanner.metaScan via HTable$1.processRow. It looks like the metaScan\nmethod calls processRow with a value that comes from the method\nHConnectionManager.getRegionServerWithRetries. Therefore, I'm assuming that the\nNPE is actually the result of some kind of networking type error."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 10,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a race condition or timing issue related to the HBase region metadata not being fully initialized or available when the tests attempt to access it. Specifically, the `NullPointerException` in the stack trace indicates that the `MetaScanner` is unable to retrieve region information, which can occur if the HBase cluster is not in a stable state or if the metadata is not yet populated, leading to intermittent failures across all tests that rely on scanning the same metadata. This suggests a concurrency or timing issue with the HBase setup during test execution.",
+      "ground_truth": "All the flaky tests fail because Writables.getWritable throws an NPE. This\nmethod takes a single argument \"bytes\", which is presumably null when it fails.\nFollowing the stack trace, we can see that this method is called indirectly\nfrom MetaScanner.metaScan via HTable$1.processRow. It looks like the metaScan\nmethod calls processRow with a value that comes from the method\nHConnectionManager.getRegionServerWithRetries. Therefore, I'm assuming that the\nNPE is actually the result of some kind of networking type error."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 13,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all three tests is a race condition stemming from timing and concurrency issues in the HBase cluster's region server management. Specifically, the tests are sensitive to the asynchronous nature of server state transitions and region assignments, leading to intermittent failures when operations such as server shutdown, startup, and region reassignment do not complete in the expected order or timeframe. This results in scenarios where regions are not properly released or reassigned, causing exceptions like `NotServingRegionException` and `BindException` to occur.",
+      "ground_truth": "Timeouts and hitting retry limits, the root cause of which appears to be some\nkind of networking type error."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 13,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is related to the timing and state management of the HBase region servers during transitions, particularly when a region server is abruptly killed or restarted. This leads to a race condition where regions become temporarily unavailable, resulting in `NotServingRegionException` errors as the tests attempt to access regions that are in transition or not yet fully online. The tests' reliance on the timely processing of region state changes exacerbates the flakiness, as they all depend on the same underlying cluster state and region availability.",
+      "ground_truth": "Timeouts and hitting retry limits, the root cause of which appears to be some\nkind of networking type error."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 14,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is improper resource management and cleanup in the HBase testing environment, particularly concerning the HLog directory in HDFS. This leads to race conditions and timing issues, where tests attempt to create or access resources that are not fully cleared from previous runs, resulting in intermittent failures due to conflicts and inconsistent states in the filesystem and data propagation across the distributed system.",
+      "ground_truth": "All the flaky tests call HBaseAdmin.createTable, which tries to create a new\nlogging directory but fails because it already exists."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 14,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is the failure to create HBase tables due to the existence of target HLog directories that already exist, as indicated by the `java.io.IOException: Target HLog directory already exists` error in the stack traces. This issue is likely caused by improper cleanup of HBase resources between test runs, leading to conflicts when attempting to create new tables with the same names or configurations. The tests are sensitive to the state of the HBase environment, which is not being reset correctly, resulting in consistent failures across multiple tests.",
+      "ground_truth": "All the flaky tests call HBaseAdmin.createTable, which tries to create a new\nlogging directory but fails because it already exists."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 19,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky tests is a combination of resource contention and timing issues within the Hadoop ecosystem, particularly related to the HDFS and HBase components. Intermittent failures arise from overlapping test executions that do not properly isolate their resources, leading to race conditions, unavailability of services (like NameNode or DataNodes), and inconsistent states due to asynchronous operations. This shared environment instability, compounded by potential network connectivity issues, results in all tests failing together during concurrent runs.",
+      "ground_truth": "Networking issues (name resolution), locked directory again."
+    },
+    {
+      "run": 3,
+      "project": "apache-hbase",
+      "cluster_id": 19,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is related to issues with the Hadoop Distributed File System (HDFS) and its configuration, specifically around network connectivity and resource availability. The stack traces indicate failures due to `UnknownHostException` and `Connection refused`, suggesting that the tests intermittently fail when the HDFS services (like NameNode or DataNode) are not reachable or properly initialized, likely due to timing issues or resource contention in the test environment. This leads to failures in file replication and data access, causing all tests that depend on HDFS to fail together.",
+      "ground_truth": "Networking issues (name resolution), locked directory again."
+    },
+    {
+      "run": 3,
+      "project": "elasticjob-elastic-job-lite",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in both `assertFindJobExecutionEventsWithTime` and `assertFindJobStatusTraceEventsWithTime` is likely due to timing issues stemming from the asynchronous processing of job events and the eventual consistency of the database. Both tests assume immediate availability of job-related data after creation, but delays in event logging or database updates can lead to intermittent failures in assertions, indicating a concurrency issue where the tests do not adequately account for the time required for data to be fully persisted and queryable.",
+      "ground_truth": "This is a very small cluster concerning two flaky tests that only fail on a\nsingle run and look very similar. They both fail because they assert that the\nreturn value of result.getTotal, where result is the return value of\nrepository.findJobStatusTraceEvents, is 0 whereas it is actually 357. The only\nthing that sets these test cases apart from the other test cases in the test\nclass is their use of time. Therefore, I am assuming that this is time related\nflakiness."
+    },
+    {
+      "run": 3,
+      "project": "elasticjob-elastic-job-lite",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to a timing issue with the underlying database state, specifically the asynchronous nature of job event logging and retrieval. Both tests rely on the presence of job execution and status trace events within a specific time window, and if the events are not fully committed or indexed in the database by the time the assertions are made, it can lead to inconsistent results, such as unexpected totals or row counts. This suggests a potential race condition or delay in event processing that affects both tests simultaneously.",
+      "ground_truth": "This is a very small cluster concerning two flaky tests that only fail on a\nsingle run and look very similar. They both fail because they assert that the\nreturn value of result.getTotal, where result is the return value of\nrepository.findJobStatusTraceEvents, is 0 whereas it is actually 357. The only\nthing that sets these test cases apart from the other test cases in the test\nclass is their use of time. Therefore, I am assuming that this is time related\nflakiness."
+    },
+    {
+      "run": 3,
+      "project": "hector-client-hector",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all ten tests is likely due to the eventual consistency model of the Cassandra database combined with concurrency issues. The tests perform rapid insert, delete, and retrieval operations without adequate synchronization or waiting mechanisms, leading to race conditions and inconsistent states where data may not be fully propagated or available for reads at the time of assertions. This results in intermittent failures as the tests attempt to access data that is not yet committed or has not been fully deleted, particularly under load or in a distributed environment.",
+      "ground_truth": "Internal error in Cassandra."
+    },
+    {
+      "run": 3,
+      "project": "hector-client-hector",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a concurrency issue related to the Cassandra database's internal state management and eventual consistency model. When multiple tests perform simultaneous insertions, deletions, and updates without proper isolation, they can lead to transient states where data is not yet fully committed or visible, resulting in `HCassandraInternalException` and `HNotFoundException` errors. This inconsistency is exacerbated by the lack of synchronization or delays between operations, causing tests to intermittently fail when they rely on the immediate availability of data that may not yet be fully processed by Cassandra.",
+      "ground_truth": "Internal error in Cassandra."
+    },
+    {
+      "run": 3,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in all three tests is likely related to inconsistent handling of URL encoding and decoding across different environments or configurations, compounded by timing issues in the asynchronous processing of HTTP requests. The tests depend on the correct encoding of special characters (like Unicode and percent signs) and the timely updating of the `path` variable, which may not be reliably synchronized with the request handling, leading to intermittent assertion failures when the expected values do not match. This combination of encoding inconsistencies and lack of synchronization creates a fragile testing environment where all tests fail together.",
+      "ground_truth": "Connection could not be made over the internet and the URL got reset to the\nempty string."
+    },
+    {
+      "run": 3,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely related to the handling of URL encoding and decoding in the `RequestHandler`. Specifically, the tests fail when the encoded URL does not match the expected decoded path due to improper encoding of special characters (like Unicode, percent signs, and spaces). This inconsistency can arise from differences in how the server or the underlying HTTP library processes these characters, leading to intermittent failures when the encoding does not align with the expected behavior, especially under varying conditions such as server configuration or request handling timing.",
+      "ground_truth": "Connection could not be made over the internet and the URL got reset to the\nempty string."
+    },
+    {
+      "run": 3,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flakiness of all these tests is a combination of timing and concurrency issues related to the handling of HTTP requests and responses in a potentially overloaded or improperly synchronized test environment. The tests depend on the timely processing of requests by the `RequestHandler` and the availability of the local server, which may not be consistently ready to handle multiple concurrent requests, leading to race conditions and inconsistent state across the tests. This suggests that the test suite may be sensitive to resource contention and timing delays, particularly when run in parallel or under load.",
+      "ground_truth": "Network issues when connecting to server."
+    },
+    {
+      "run": 3,
+      "project": "kevinsawicki-http-request",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely related to the configuration and availability of the local HTTP server (localhost) used for handling requests. If the server is not properly initialized, is overloaded, or experiences intermittent connectivity issues, it can lead to failures in establishing connections, resulting in `null` values or exceptions like `IOException` and `ClassCastException`. This inconsistency in server response or availability directly impacts all tests that rely on it, causing them to fail together.",
+      "ground_truth": "Network issues when connecting to server."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely related to timing and concurrency issues within the Spring application context initialization process, compounded by inconsistent network configurations and resource availability. The tests are sensitive to the order and timing of bean initialization, particularly for components like `SpringLiquibase`, which may not be fully ready when assertions are made, leading to intermittent failures across multiple tests that rely on similar contexts and external dependencies. Additionally, network-related issues, such as hostname resolution and local address retrieval, further exacerbate the flakiness by introducing variability in the test environment.",
+      "ground_truth": "Root issue to do with DNS, causing issues creating beans, which cascades into\na failure of the whole framework."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a failure to resolve the local host name to an IP address, which leads to `java.net.UnknownHostException` or `com.gemstone.gemfire.InternalGemFireError`. This issue is likely related to networking or DNS resolution problems in the test environment, causing the application context to fail to initialize properly across multiple tests that depend on networked components or services, such as GemFire and Liquibase.",
+      "ground_truth": "Root issue to do with DNS, causing issues creating beans, which cascades into\na failure of the whole framework."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 10,
+      "method": "individual",
+      "diagnosis": "The shared root cause for the flaky failures of both tests is likely a combination of configuration issues and external dependency mismatches, specifically related to the Spring Framework versions being used. The `NoSuchMethodError` in the first test indicates a version conflict that can lead to inconsistent class loading, while the concurrency and timing issues in the second test may be exacerbated by the same underlying dependency misconfiguration, resulting in both tests failing together due to their reliance on the same faulty classpath and resource states.",
+      "ground_truth": "These two test cases execute a similar command and assert that the error output\nis empty, among other things. In most runs, this is the case, but sometimes the\nerror output contains a stack trace whose root cause is a NoSuchMethodError\ncaused by a missing isAllowEagerClassLoading method. Googling, I found this may\nbe caused by using the wrong version of Spring Framework. Looking at the\nFlakeFlagger scripts, I believe that the project was cloned from github and\nreinstalled for every test run. My best guess is there's some kind of\nnon-determinism involving the version of Spring Framework that ends up being\ninstalled."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 10,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a `NoSuchMethodError` indicating a mismatch in the Spring framework version being used, specifically related to the `DefaultListableBeanFactory.isAllowEagerClassLoading()` method. This suggests that the tests are likely running in an environment where conflicting versions of Spring dependencies are present, leading to inconsistent behavior during the application context initialization. The intermittent failures arise from the tests relying on a specific method that may not exist in the loaded version, causing the tests to fail together when that version is invoked.",
+      "ground_truth": "These two test cases execute a similar command and assert that the error output\nis empty, among other things. In most runs, this is the case, but sometimes the\nerror output contains a stack trace whose root cause is a NoSuchMethodError\ncaused by a missing isAllowEagerClassLoading method. Googling, I found this may\nbe caused by using the wrong version of Spring Framework. Looking at the\nFlakeFlagger scripts, I believe that the project was cloned from github and\nreinstalled for every test run. My best guess is there's some kind of\nnon-determinism involving the version of Spring Framework that ends up being\ninstalled."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 11,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is a combination of timing and resource contention issues within the test environment. The tests are sensitive to execution timing and rely on the availability of resources (such as script outputs and class files) that may not be consistently accessible due to parallel execution or misconfiguration, leading to intermittent failures when the environment is under load or not properly set up. This suggests that the tests are competing for limited resources or experiencing race conditions, which collectively impacts their reliability.",
+      "ground_truth": "Similar to cluster10, these test cases execute a command and make an assertion\nabout its output. Also similar to cluster10, the stack traces in traces2 seem to\nbe based around the missing method isAllowEagerClassLoading. In traces1, they\nrefer to a missing \"class path resource\" for the class AopAutoConfiguration.\nPerhaps interestingly, AopAutoConfiguration is part of the project code. Due to\nthe similarities with cluster10, I assume that root cause is the same, some kind\nof non-determinism involving the version of Spring Framework."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 11,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a missing or misconfigured classpath resource, specifically the absence of the `AopAutoConfiguration.class` file, which leads to `FileNotFoundException` during application startup. This indicates that the tests are likely dependent on a specific Spring Boot configuration or dependency that is not being correctly resolved or included in the classpath, causing all tests to fail when they attempt to start the Spring application context. The intermittent nature of the failures suggests that the classpath may not be consistently set up across different test runs, possibly due to environmental issues or dependency resolution problems.",
+      "ground_truth": "Similar to cluster10, these test cases execute a command and make an assertion\nabout its output. Also similar to cluster10, the stack traces in traces2 seem to\nbe based around the missing method isAllowEagerClassLoading. In traces1, they\nrefer to a missing \"class path resource\" for the class AopAutoConfiguration.\nPerhaps interestingly, AopAutoConfiguration is part of the project code. Due to\nthe similarities with cluster10, I assume that root cause is the same, some kind\nof non-determinism involving the version of Spring Framework."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 12,
+      "method": "individual",
+      "diagnosis": "The most likely shared root cause for the flaky failures of all these tests is related to timing and resource contention in the test environment. Many tests depend on the successful execution of Groovy scripts or external services that may not be fully initialized or responsive when assertions are made, leading to intermittent failures. Additionally, the inconsistency in the configuration and availability of dependencies, such as messaging systems and network services, exacerbates these timing issues, causing all tests to fail together under certain conditions.",
+      "ground_truth": "Similar to cluster10 and cluster11, these test cases execute a command and make\nan assertion about its output. traces2 concerns isAllowEagerClassLoading and\ntraces3 concerns AopAutoConfiguration. What's new about this cluster is the\nexceptions in traces1, which are all ConnectException. Initially, I assumed this\nwas network related, but upon inspecting the source code of CliTester, it looks\nlike it's trying to connect to localhost."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 12,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is likely due to a failure in establishing network connections, as indicated by the `java.net.ConnectException: Connection refused` error in the stack traces. This suggests that the tests are attempting to connect to a service (possibly a web server or messaging broker) that is not available or not started properly during the test execution, leading to intermittent failures across all tests that rely on this connectivity. The absence of necessary configuration files and the inability to load required classes further exacerbate the issue, indicating potential misconfiguration or missing dependencies in the test environment.",
+      "ground_truth": "Similar to cluster10 and cluster11, these test cases execute a command and make\nan assertion about its output. traces2 concerns isAllowEagerClassLoading and\ntraces3 concerns AopAutoConfiguration. What's new about this cluster is the\nexceptions in traces1, which are all ConnectException. Initially, I assumed this\nwas network related, but upon inspecting the source code of CliTester, it looks\nlike it's trying to connect to localhost."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 15,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to inconsistent configuration and resource contention in the test environment, which affects both timing and dependency resolution. The combination of asynchronous command execution and potential conflicts in library versions leads to intermittent failures, as the tests rely on timely and correctly formatted outputs that may not be available due to environmental factors such as CPU load, memory constraints, or misaligned dependencies. This results in a fragile test setup that fails under varying conditions, causing all tests to fail together.",
+      "ground_truth": "What's new here is the failure of debugAddsAutoconfigReport in traces3 (null\nassertion), though there's not much to go on in the error message."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 15,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **dependency mismatch** or **incompatibility** within the Spring Boot framework, specifically related to the `NoSuchMethodError` for `DefaultListableBeanFactory.isAllowEagerClassLoading()`. This indicates that the tests are likely running against an incorrect or outdated version of the Spring framework that does not support the expected method, leading to application startup failures and subsequent assertion errors across all tests. The failure to find necessary configuration files and the inability to start the application context further exacerbate the issue, causing all tests to fail together.",
+      "ground_truth": "What's new here is the failure of debugAddsAutoconfigReport in traces3 (null\nassertion), though there's not much to go on in the error message."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 16,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely due to inconsistent and misconfigured dependency resolution settings in the build environment, particularly related to the use of outdated or incorrect repository URLs (HTTP instead of HTTPS) and intermittent network issues affecting access to external repositories. This leads to failures in fetching required artifacts, resulting in sporadic test failures across multiple tests that rely on the same external dependencies.",
+      "ground_truth": "What's new in this cluster is Gradle issues, could possibly have something to\ndo with DNS? (like cluster1)."
+    },
+    {
+      "run": 3,
+      "project": "spring-projects-spring-boot",
+      "cluster_id": 16,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a failure in dependency resolution due to the use of HTTP URLs for Maven repositories, which are no longer supported as they require HTTPS. This results in multiple tests failing to retrieve necessary artifacts, leading to `DependencyResolutionException` errors across various tests that rely on the same dependency management setup. The intermittent nature of the failures may also be exacerbated by network issues or repository availability, but the primary issue is the outdated repository configuration.",
+      "ground_truth": "What's new in this cluster is Gradle issues, could possibly have something to\ndo with DNS? (like cluster1)."
+    },
+    {
+      "run": 3,
+      "project": "square-okhttp",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to timing and concurrency issues within the mock server's response handling. The tests depend on the sequential processing of requests and responses, but the asynchronous nature of the server can lead to race conditions, where responses are not processed in the expected order or timing, resulting in intermittent failures across all tests. Additionally, the reliance on DNS resolution and network conditions further exacerbates the flakiness, as these factors can introduce variability in the server's availability and responsiveness during test execution.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 3,
+      "project": "square-okhttp",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a `java.net.UnknownHostException` due to a temporary failure in name resolution for the hostname `ip-172-31-63-122`. This indicates a networking issue, likely related to DNS resolution or the local network configuration, which affects the ability of the tests to connect to the mock server consistently. Since all tests rely on the mock server's URL for their operations, any intermittent DNS resolution failure will lead to simultaneous failures across all tests.",
+      "ground_truth": "Related to DNS resolution."
+    },
+    {
+      "run": 3,
+      "project": "square-okhttp",
+      "cluster_id": 6,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to intermittent network instability or misconfiguration in the test environment, which affects DNS resolution and network connectivity. This instability can lead to timing issues with connection closures and transient failures in resolving hostnames, causing all three tests to fail together due to their reliance on consistent network conditions and external dependencies.",
+      "ground_truth": "DNS and socket issues."
+    },
+    {
+      "run": 3,
+      "project": "square-okhttp",
+      "cluster_id": 6,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to intermittent network issues affecting the mock server's ability to resolve hostnames and establish connections. The `UnknownHostException` and `SocketException` indicate that the tests are failing due to temporary DNS resolution failures and network unreachability, which can occur if the test environment is unstable or if there are resource constraints impacting network connectivity. This suggests that the tests are sensitive to the state of the network and the availability of the mock server, leading to simultaneous failures.",
+      "ground_truth": "DNS and socket issues."
+    },
+    {
+      "run": 3,
+      "project": "square-okhttp",
+      "cluster_id": 20,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is likely due to intermittent network connectivity issues affecting the external resources they depend on. The `SocketException` in Test 1 indicates that the network is unreachable, while Test 2's authentication process may also be impacted by the same unstable network conditions, leading to inconsistent results and failures when attempting to connect to the authentication server or other external services. This suggests that the tests are sensitive to the overall network environment, which can fluctuate during test execution.",
+      "ground_truth": "Network unreachable."
+    },
+    {
+      "run": 3,
+      "project": "square-okhttp",
+      "cluster_id": 20,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely a network connectivity issue, as indicated by the `SocketException: Network is unreachable (connect failed)` in the stack trace of Test 1. This suggests that the tests are dependent on external network resources, which may be temporarily unavailable or misconfigured during certain test runs, leading to intermittent failures in both tests that rely on network interactions. The failure of both tests together points to a common environmental issue, such as network instability or misconfigured network settings, affecting their ability to connect to required services.",
+      "ground_truth": "Network unreachable."
+    },
+    {
+      "run": 3,
+      "project": "wildfly-wildfly",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky failures in both tests is likely related to resource contention and network latency affecting the JMS broker's responsiveness. Since both tests depend on timely interactions with the ActiveMQ message broker, any degradation in its performance—such as high load, insufficient resources, or network issues—can lead to timeouts and synchronization problems, causing both tests to fail intermittently when these conditions arise.",
+      "ground_truth": "Timeouts when waiting for network packets"
+    },
+    {
+      "run": 3,
+      "project": "wildfly-wildfly",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in both tests is likely related to a timeout in the JMS connection to the ActiveMQ broker, as indicated by the `ActiveMQConnectionTimedOutException`. This suggests that the broker may be experiencing resource contention or network issues, leading to delays in message processing and causing both tests to fail when they attempt to send messages. The tests' reliance on the JMS broker for message delivery and transaction handling means that any instability in the broker's responsiveness directly impacts their success.",
+      "ground_truth": "Timeouts when waiting for network packets"
+    },
+    {
+      "run": 3,
+      "project": "wildfly-wildfly",
+      "cluster_id": 3,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to timing and concurrency issues during the initialization and configuration of the Infinispan subsystem across different EAP versions. The tests depend on the readiness of external resources and the correct state of the environment, which can lead to race conditions or delays in resource availability, causing intermittent failures when the tests are executed in quick succession or under varying load conditions. Additionally, the reliance on external dependency resolution from the Red Hat Maven repository introduces network instability, compounding the timing issues and resulting in consistent failures across all tests.",
+      "ground_truth": "There is a problem connecting to a JBOSS repository to find an artifact caused\nby reliance on an external web server that is unable to process the request and\nreturns a 500 error. 500 could imply a flaky problem with the server?"
+    },
+    {
+      "run": 3,
+      "project": "wildfly-wildfly",
+      "cluster_id": 3,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is an intermittent failure to resolve Maven artifacts from the Red Hat product repository, resulting in a 500 Internal Server Error. This issue is likely related to external dependency availability, where the repository may be temporarily down or experiencing issues, causing all tests that rely on fetching artifacts from it to fail simultaneously. The tests are dependent on specific versions of the `wildfly-clustering-infinispan-extension` artifact, and when the repository is unreachable, they all fail together due to the inability to retrieve necessary resources.",
+      "ground_truth": "There is a problem connecting to a JBOSS repository to find an artifact caused\nby reliance on an external web server that is unable to process the request and\nreturns a 500 error. 500 could imply a flaky problem with the server?"
+    },
+    {
+      "run": 3,
+      "project": "wro4j-wro4j",
+      "cluster_id": 1,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures in both `canLocateValidResource` and `testValidUrl` is the reliance on an external network resource, specifically the availability and stability of the URL `http://www.google.com`. Intermittent network connectivity issues, such as latency, DNS resolution failures, or temporary unavailability of the external site, can lead to simultaneous timeouts and failures in both tests, making them susceptible to variations in network conditions. This common dependency on an external resource is the primary factor contributing to their flakiness.",
+      "ground_truth": "Network issues."
+    },
+    {
+      "run": 3,
+      "project": "wro4j-wro4j",
+      "cluster_id": 1,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is a **networking issue**, specifically a **SocketTimeoutException** indicating that the tests are unable to establish a connection to the external URL \"http://www.google.com\". This intermittent failure suggests that the tests are sensitive to network availability or latency, which can lead to timeouts when the network is slow or unavailable, causing both tests to fail simultaneously when the network conditions are unfavorable.",
+      "ground_truth": "Network issues."
+    },
+    {
+      "run": 3,
+      "project": "wro4j-wro4j",
+      "cluster_id": 2,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures across all four tests is likely due to inadequate thread safety and state management within the `processor` instances used in the tests. The combination of concurrency issues and improper handling of the processor's internal state—especially after failures—leads to race conditions and inconsistent behavior, resulting in intermittent failures when tests are executed in parallel. This indicates a fundamental flaw in the design of the `processor` that affects its reliability under concurrent access.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction. (Some\nof the calls have signatures suggesting concurrency problems)."
+    },
+    {
+      "run": 3,
+      "project": "wro4j-wro4j",
+      "cluster_id": 2,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is related to the concurrency and state management of the Ruby Sass processor. The tests are likely failing due to race conditions or improper handling of shared state when multiple threads attempt to access and modify the processor simultaneously. This can lead to inconsistent behavior, such as method access issues and linkage errors, particularly when the processor's internal state is altered by one thread while another is executing, resulting in intermittent failures across all tests that utilize the processor concurrently.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction. (Some\nof the calls have signatures suggesting concurrency problems)."
+    },
+    {
+      "run": 3,
+      "project": "wro4j-wro4j",
+      "cluster_id": 3,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flaky test failures is likely due to class loader conflicts and inconsistent initialization of the Ruby environment used by the JRuby engine across multiple test executions. This results in intermittent `LinkageError` and timing issues, particularly when the engine's state is affected by concurrency or external resource availability, leading to sporadic failures in processing methods. The combination of these factors creates an unstable testing environment that causes all three tests to fail together.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction."
+    },
+    {
+      "run": 3,
+      "project": "wro4j-wro4j",
+      "cluster_id": 3,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flakiness in these tests is related to the RubySassEngine's handling of class loading and method invocation in the JRuby environment. The stack traces indicate a `LinkageError` due to class loader conflicts, which can occur when multiple instances of the same class are loaded by different class loaders, leading to inconsistent method resolution. This issue is exacerbated by the repeated execution of the `RubySassEngine` in the tests, which can cause the engine to attempt to access methods that are not properly linked, resulting in intermittent failures across all tests that utilize this engine.",
+      "ground_truth": "Something to do with calling Ruby and the \"invokedynamic\" JVM instruction."
+    },
+    {
+      "run": 3,
+      "project": "wro4j-wro4j",
+      "cluster_id": 4,
+      "method": "individual",
+      "diagnosis": "The shared root cause of the flakiness in both tests is likely related to inconsistent handling of invalid input files and the state of the Ruby environment during test execution. Variations in file accessibility, such as timing issues with file creation or permissions, combined with the RubySassEngine's inadequate error handling for malformed data, lead to unpredictable behavior and failures in both tests. This suggests that the tests are sensitive to the environment and input conditions, causing them to fail together when those conditions are not met.",
+      "ground_truth": "This cluster contains just two flaky tests that fail fairly frequently. The\nfailures of both tests are ultimately caused by an NPE from the method checkKey\nof the class BiVariableMap. Presumably null is being passed for the key\nargument. However, we cannot figure out what is causing this to occur\nintermittently."
+    },
+    {
+      "run": 3,
+      "project": "wro4j-wro4j",
+      "cluster_id": 4,
+      "method": "collective",
+      "diagnosis": "The shared root cause of the flaky tests is likely related to the handling of invalid CSS input in the RubySass engine, which leads to a `NullPointerException` when processing certain files. This indicates that the engine may not be robustly validating input or managing its internal state, resulting in intermittent failures when it encounters unexpected or malformed data. The tests fail together because they both rely on the same underlying processing logic that is sensitive to the input provided, leading to cascading failures when that logic encounters issues.",
+      "ground_truth": "This cluster contains just two flaky tests that fail fairly frequently. The\nfailures of both tests are ultimately caused by an NPE from the method checkKey\nof the class BiVariableMap. Presumably null is being passed for the key\nargument. However, we cannot figure out what is causing this to occur\nintermittently."
+    }
+  ]
+}

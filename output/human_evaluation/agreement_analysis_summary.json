@@ -1,0 +1,12 @@
+{
+  "human_llm_agreement": {
+    "avg_exact": 0.3511904761904761,
+    "avg_adjacent": 0.7976190476190476,
+    "avg_spearman": 0.8374659764736022
+  },
+  "inter_rater_reliability": {
+    "avg_exact": 0.5238095238095238,
+    "avg_adjacent": 0.8928571428571429,
+    "avg_spearman": 0.8169766220852038
+  }
+}
